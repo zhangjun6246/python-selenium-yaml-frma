@@ -1,0 +1,17 @@
+[2019-06-18 15:39:13] [INFO] 123
+[2019-06-18 15:40:50] [INFO] 123
+[2019-06-18 15:50:21] [INFO] 78
+[2019-06-18 16:00:00] [DEBUG] POST http://127.0.0.1:50874/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-18 16:00:00] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:50874
+[2019-06-18 16:00:04] [DEBUG] http://127.0.0.1:50874 "POST /session HTTP/1.1" 200 832
+[2019-06-18 16:00:04] [DEBUG] Finished Request
+[2019-06-18 16:00:04] [INFO] 1234
+[2019-06-18 16:00:04] [DEBUG] POST http://127.0.0.1:50874/session/d3c75a52b8866888ccd6c24c8ae4a864/url {"url": "https://www.chinabrands.com/site/login.html/", "sessionId": "d3c75a52b8866888ccd6c24c8ae4a864"}
+[2019-06-18 16:00:09] [DEBUG] http://127.0.0.1:50874 "POST /session/d3c75a52b8866888ccd6c24c8ae4a864/url HTTP/1.1" 200 72
+[2019-06-18 16:00:09] [DEBUG] Finished Request
+[2019-06-18 16:00:09] [DEBUG] POST http://127.0.0.1:50874/session/d3c75a52b8866888ccd6c24c8ae4a864/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "d3c75a52b8866888ccd6c24c8ae4a864"}
+[2019-06-18 16:00:09] [DEBUG] http://127.0.0.1:50874 "POST /session/d3c75a52b8866888ccd6c24c8ae4a864/element HTTP/1.1" 200 360
+[2019-06-18 16:00:09] [DEBUG] Finished Request
+[2019-06-18 16:00:09] [DEBUG] DELETE http://127.0.0.1:50874/session/d3c75a52b8866888ccd6c24c8ae4a864 {"sessionId": "d3c75a52b8866888ccd6c24c8ae4a864"}
+[2019-06-18 16:00:09] [DEBUG] http://127.0.0.1:50874 "DELETE /session/d3c75a52b8866888ccd6c24c8ae4a864 HTTP/1.1" 200 72
+[2019-06-18 16:00:09] [DEBUG] Finished Request

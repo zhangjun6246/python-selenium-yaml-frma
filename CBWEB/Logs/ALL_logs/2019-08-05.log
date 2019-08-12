@@ -1,0 +1,464 @@
+[2019-08-05 11:23:36] [DEBUG] POST http://127.0.0.1:55039/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 11:23:36] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:55039
+[2019-08-05 11:23:39] [DEBUG] http://127.0.0.1:55039 "POST /session HTTP/1.1" 200 832
+[2019-08-05 11:23:39] [DEBUG] Finished Request
+[2019-08-05 11:23:39] [DEBUG] POST http://127.0.0.1:55039/session/c3f6f99ad97db3b9251dadf766471b4e/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "c3f6f99ad97db3b9251dadf766471b4e"}
+[2019-08-05 11:23:39] [DEBUG] http://127.0.0.1:55039 "POST /session/c3f6f99ad97db3b9251dadf766471b4e/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 11:23:39] [DEBUG] Finished Request
+[2019-08-05 11:23:39] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-08-05 11:23:39] [DEBUG] POST http://127.0.0.1:55039/session/c3f6f99ad97db3b9251dadf766471b4e/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "c3f6f99ad97db3b9251dadf766471b4e"}
+[2019-08-05 11:23:43] [DEBUG] http://127.0.0.1:55039 "POST /session/c3f6f99ad97db3b9251dadf766471b4e/url HTTP/1.1" 200 72
+[2019-08-05 11:23:43] [DEBUG] Finished Request
+[2019-08-05 11:23:43] [DEBUG] POST http://127.0.0.1:55039/session/c3f6f99ad97db3b9251dadf766471b4e/window/current/maximize {"windowHandle": "current", "sessionId": "c3f6f99ad97db3b9251dadf766471b4e"}
+[2019-08-05 11:23:44] [DEBUG] http://127.0.0.1:55039 "POST /session/c3f6f99ad97db3b9251dadf766471b4e/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 11:23:44] [DEBUG] Finished Request
+[2019-08-05 11:23:44] [DEBUG] POST http://127.0.0.1:55039/session/c3f6f99ad97db3b9251dadf766471b4e/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "c3f6f99ad97db3b9251dadf766471b4e"}
+[2019-08-05 11:23:44] [DEBUG] http://127.0.0.1:55039 "POST /session/c3f6f99ad97db3b9251dadf766471b4e/url HTTP/1.1" 200 72
+[2019-08-05 11:23:44] [DEBUG] Finished Request
+[2019-08-05 11:23:44] [INFO] 执行一个截图
+[2019-08-05 11:23:44] [DEBUG] POST http://127.0.0.1:55039/session/c3f6f99ad97db3b9251dadf766471b4e/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "c3f6f99ad97db3b9251dadf766471b4e"}
+[2019-08-05 11:23:44] [DEBUG] http://127.0.0.1:55039 "POST /session/c3f6f99ad97db3b9251dadf766471b4e/url HTTP/1.1" 200 72
+[2019-08-05 11:23:44] [DEBUG] Finished Request
+[2019-08-05 11:23:44] [DEBUG] DELETE http://127.0.0.1:55039/session/c3f6f99ad97db3b9251dadf766471b4e {"sessionId": "c3f6f99ad97db3b9251dadf766471b4e"}
+[2019-08-05 11:23:44] [DEBUG] http://127.0.0.1:55039 "DELETE /session/c3f6f99ad97db3b9251dadf766471b4e HTTP/1.1" 200 72
+[2019-08-05 11:23:44] [DEBUG] Finished Request
+[2019-08-05 11:38:35] [DEBUG] POST http://127.0.0.1:55574/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 11:38:35] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:55574
+[2019-08-05 11:38:41] [DEBUG] http://127.0.0.1:55574 "POST /session HTTP/1.1" 200 833
+[2019-08-05 11:38:41] [DEBUG] Finished Request
+[2019-08-05 11:38:41] [DEBUG] POST http://127.0.0.1:55574/session/32cf48a6a709809783ba5d0ebe49cf48/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "32cf48a6a709809783ba5d0ebe49cf48"}
+[2019-08-05 11:38:41] [DEBUG] http://127.0.0.1:55574 "POST /session/32cf48a6a709809783ba5d0ebe49cf48/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 11:38:41] [DEBUG] Finished Request
+[2019-08-05 11:38:41] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-08-05 11:38:41] [DEBUG] POST http://127.0.0.1:55574/session/32cf48a6a709809783ba5d0ebe49cf48/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "32cf48a6a709809783ba5d0ebe49cf48"}
+[2019-08-05 11:39:00] [DEBUG] http://127.0.0.1:55574 "POST /session/32cf48a6a709809783ba5d0ebe49cf48/url HTTP/1.1" 200 72
+[2019-08-05 11:39:00] [DEBUG] Finished Request
+[2019-08-05 11:39:00] [DEBUG] POST http://127.0.0.1:55574/session/32cf48a6a709809783ba5d0ebe49cf48/window/current/maximize {"windowHandle": "current", "sessionId": "32cf48a6a709809783ba5d0ebe49cf48"}
+[2019-08-05 11:39:01] [DEBUG] http://127.0.0.1:55574 "POST /session/32cf48a6a709809783ba5d0ebe49cf48/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 11:39:01] [DEBUG] Finished Request
+[2019-08-05 11:39:01] [DEBUG] POST http://127.0.0.1:55574/session/32cf48a6a709809783ba5d0ebe49cf48/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "32cf48a6a709809783ba5d0ebe49cf48"}
+[2019-08-05 11:39:01] [DEBUG] http://127.0.0.1:55574 "POST /session/32cf48a6a709809783ba5d0ebe49cf48/url HTTP/1.1" 200 72
+[2019-08-05 11:39:01] [DEBUG] Finished Request
+[2019-08-05 11:39:01] [INFO] 执行一个截图
+[2019-08-05 11:39:01] [DEBUG] GET http://127.0.0.1:55574/session/32cf48a6a709809783ba5d0ebe49cf48/screenshot {"sessionId": "32cf48a6a709809783ba5d0ebe49cf48"}
+[2019-08-05 11:39:01] [DEBUG] http://127.0.0.1:55574 "GET /session/32cf48a6a709809783ba5d0ebe49cf48/screenshot HTTP/1.1" 200 13526
+[2019-08-05 11:39:01] [DEBUG] Finished Request
+[2019-08-05 11:39:01] [DEBUG] GET http://127.0.0.1:55574/session/32cf48a6a709809783ba5d0ebe49cf48/screenshot {"sessionId": "32cf48a6a709809783ba5d0ebe49cf48"}
+[2019-08-05 11:39:02] [DEBUG] http://127.0.0.1:55574 "GET /session/32cf48a6a709809783ba5d0ebe49cf48/screenshot HTTP/1.1" 200 13526
+[2019-08-05 11:39:02] [DEBUG] Finished Request
+[2019-08-05 11:39:02] [DEBUG] POST http://127.0.0.1:55574/session/32cf48a6a709809783ba5d0ebe49cf48/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "32cf48a6a709809783ba5d0ebe49cf48"}
+[2019-08-05 11:39:02] [DEBUG] http://127.0.0.1:55574 "POST /session/32cf48a6a709809783ba5d0ebe49cf48/url HTTP/1.1" 200 72
+[2019-08-05 11:39:02] [DEBUG] Finished Request
+[2019-08-05 11:39:02] [DEBUG] GET http://127.0.0.1:55574/session/32cf48a6a709809783ba5d0ebe49cf48/screenshot {"sessionId": "32cf48a6a709809783ba5d0ebe49cf48"}
+[2019-08-05 11:39:02] [DEBUG] http://127.0.0.1:55574 "GET /session/32cf48a6a709809783ba5d0ebe49cf48/screenshot HTTP/1.1" 200 13526
+[2019-08-05 11:39:02] [DEBUG] Finished Request
+[2019-08-05 11:39:02] [DEBUG] DELETE http://127.0.0.1:55574/session/32cf48a6a709809783ba5d0ebe49cf48 {"sessionId": "32cf48a6a709809783ba5d0ebe49cf48"}
+[2019-08-05 11:39:02] [DEBUG] http://127.0.0.1:55574 "DELETE /session/32cf48a6a709809783ba5d0ebe49cf48 HTTP/1.1" 200 72
+[2019-08-05 11:39:02] [DEBUG] Finished Request
+[2019-08-05 11:43:29] [DEBUG] POST http://127.0.0.1:55678/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 11:43:29] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:55678
+[2019-08-05 11:43:32] [DEBUG] http://127.0.0.1:55678 "POST /session HTTP/1.1" 200 832
+[2019-08-05 11:43:32] [DEBUG] Finished Request
+[2019-08-05 11:43:32] [DEBUG] POST http://127.0.0.1:55678/session/a12f8c559702fcef607e61d84cff467f/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "a12f8c559702fcef607e61d84cff467f"}
+[2019-08-05 11:43:32] [DEBUG] http://127.0.0.1:55678 "POST /session/a12f8c559702fcef607e61d84cff467f/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 11:43:32] [DEBUG] Finished Request
+[2019-08-05 11:43:32] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-08-05 11:43:32] [DEBUG] POST http://127.0.0.1:55678/session/a12f8c559702fcef607e61d84cff467f/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "a12f8c559702fcef607e61d84cff467f"}
+[2019-08-05 11:43:34] [DEBUG] http://127.0.0.1:55678 "POST /session/a12f8c559702fcef607e61d84cff467f/url HTTP/1.1" 200 72
+[2019-08-05 11:43:34] [DEBUG] Finished Request
+[2019-08-05 11:43:34] [DEBUG] POST http://127.0.0.1:55678/session/a12f8c559702fcef607e61d84cff467f/window/current/maximize {"windowHandle": "current", "sessionId": "a12f8c559702fcef607e61d84cff467f"}
+[2019-08-05 11:43:35] [DEBUG] http://127.0.0.1:55678 "POST /session/a12f8c559702fcef607e61d84cff467f/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 11:43:35] [DEBUG] Finished Request
+[2019-08-05 11:43:35] [DEBUG] POST http://127.0.0.1:55678/session/a12f8c559702fcef607e61d84cff467f/url {"url": "https://www.cnblogs.com/chongyou/", "sessionId": "a12f8c559702fcef607e61d84cff467f"}
+[2019-08-05 11:43:37] [DEBUG] http://127.0.0.1:55678 "POST /session/a12f8c559702fcef607e61d84cff467f/url HTTP/1.1" 200 72
+[2019-08-05 11:43:37] [DEBUG] Finished Request
+[2019-08-05 11:43:37] [INFO] 执行一个截图
+[2019-08-05 11:43:37] [DEBUG] GET http://127.0.0.1:55678/session/a12f8c559702fcef607e61d84cff467f/screenshot {"sessionId": "a12f8c559702fcef607e61d84cff467f"}
+[2019-08-05 11:43:38] [DEBUG] http://127.0.0.1:55678 "GET /session/a12f8c559702fcef607e61d84cff467f/screenshot HTTP/1.1" 200 385822
+[2019-08-05 11:43:38] [DEBUG] Finished Request
+[2019-08-05 11:43:38] [DEBUG] GET http://127.0.0.1:55678/session/a12f8c559702fcef607e61d84cff467f/screenshot {"sessionId": "a12f8c559702fcef607e61d84cff467f"}
+[2019-08-05 11:43:38] [DEBUG] http://127.0.0.1:55678 "GET /session/a12f8c559702fcef607e61d84cff467f/screenshot HTTP/1.1" 200 385822
+[2019-08-05 11:43:38] [DEBUG] Finished Request
+[2019-08-05 11:43:38] [DEBUG] POST http://127.0.0.1:55678/session/a12f8c559702fcef607e61d84cff467f/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "a12f8c559702fcef607e61d84cff467f"}
+[2019-08-05 11:43:38] [DEBUG] http://127.0.0.1:55678 "POST /session/a12f8c559702fcef607e61d84cff467f/url HTTP/1.1" 200 72
+[2019-08-05 11:43:38] [DEBUG] Finished Request
+[2019-08-05 11:43:38] [DEBUG] GET http://127.0.0.1:55678/session/a12f8c559702fcef607e61d84cff467f/screenshot {"sessionId": "a12f8c559702fcef607e61d84cff467f"}
+[2019-08-05 11:43:39] [DEBUG] http://127.0.0.1:55678 "GET /session/a12f8c559702fcef607e61d84cff467f/screenshot HTTP/1.1" 200 13526
+[2019-08-05 11:43:39] [DEBUG] Finished Request
+[2019-08-05 11:43:39] [DEBUG] DELETE http://127.0.0.1:55678/session/a12f8c559702fcef607e61d84cff467f {"sessionId": "a12f8c559702fcef607e61d84cff467f"}
+[2019-08-05 11:43:39] [DEBUG] http://127.0.0.1:55678 "DELETE /session/a12f8c559702fcef607e61d84cff467f HTTP/1.1" 200 72
+[2019-08-05 11:43:39] [DEBUG] Finished Request
+[2019-08-05 11:47:42] [DEBUG] POST http://127.0.0.1:55777/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 11:47:42] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:55777
+[2019-08-05 11:47:44] [DEBUG] http://127.0.0.1:55777 "POST /session HTTP/1.1" 200 833
+[2019-08-05 11:47:44] [DEBUG] Finished Request
+[2019-08-05 11:47:44] [DEBUG] POST http://127.0.0.1:55777/session/fba1089fb5bff89b8f578310e5df5942/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "fba1089fb5bff89b8f578310e5df5942"}
+[2019-08-05 11:47:44] [DEBUG] http://127.0.0.1:55777 "POST /session/fba1089fb5bff89b8f578310e5df5942/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 11:47:44] [DEBUG] Finished Request
+[2019-08-05 11:47:44] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-08-05 11:47:44] [DEBUG] POST http://127.0.0.1:55777/session/fba1089fb5bff89b8f578310e5df5942/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "fba1089fb5bff89b8f578310e5df5942"}
+[2019-08-05 11:47:45] [DEBUG] http://127.0.0.1:55777 "POST /session/fba1089fb5bff89b8f578310e5df5942/url HTTP/1.1" 200 72
+[2019-08-05 11:47:45] [DEBUG] Finished Request
+[2019-08-05 11:47:45] [DEBUG] POST http://127.0.0.1:55777/session/fba1089fb5bff89b8f578310e5df5942/window/current/maximize {"windowHandle": "current", "sessionId": "fba1089fb5bff89b8f578310e5df5942"}
+[2019-08-05 11:47:46] [DEBUG] http://127.0.0.1:55777 "POST /session/fba1089fb5bff89b8f578310e5df5942/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 11:47:46] [DEBUG] Finished Request
+[2019-08-05 11:47:46] [DEBUG] POST http://127.0.0.1:55777/session/fba1089fb5bff89b8f578310e5df5942/url {"url": "https://www.cnblogs.com/chongyou/", "sessionId": "fba1089fb5bff89b8f578310e5df5942"}
+[2019-08-05 11:47:47] [DEBUG] http://127.0.0.1:55777 "POST /session/fba1089fb5bff89b8f578310e5df5942/url HTTP/1.1" 200 72
+[2019-08-05 11:47:47] [DEBUG] Finished Request
+[2019-08-05 11:47:47] [INFO] 执行一个截图
+[2019-08-05 11:47:47] [DEBUG] GET http://127.0.0.1:55777/session/fba1089fb5bff89b8f578310e5df5942/screenshot {"sessionId": "fba1089fb5bff89b8f578310e5df5942"}
+[2019-08-05 11:47:48] [DEBUG] http://127.0.0.1:55777 "GET /session/fba1089fb5bff89b8f578310e5df5942/screenshot HTTP/1.1" 200 385822
+[2019-08-05 11:47:48] [DEBUG] Finished Request
+[2019-08-05 11:47:48] [DEBUG] GET http://127.0.0.1:55777/session/fba1089fb5bff89b8f578310e5df5942/screenshot {"sessionId": "fba1089fb5bff89b8f578310e5df5942"}
+[2019-08-05 11:47:48] [DEBUG] http://127.0.0.1:55777 "GET /session/fba1089fb5bff89b8f578310e5df5942/screenshot HTTP/1.1" 200 385822
+[2019-08-05 11:47:48] [DEBUG] Finished Request
+[2019-08-05 11:47:48] [DEBUG] POST http://127.0.0.1:55777/session/fba1089fb5bff89b8f578310e5df5942/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "fba1089fb5bff89b8f578310e5df5942"}
+[2019-08-05 11:47:48] [DEBUG] http://127.0.0.1:55777 "POST /session/fba1089fb5bff89b8f578310e5df5942/url HTTP/1.1" 200 72
+[2019-08-05 11:47:48] [DEBUG] Finished Request
+[2019-08-05 11:47:48] [DEBUG] GET http://127.0.0.1:55777/session/fba1089fb5bff89b8f578310e5df5942/screenshot {"sessionId": "fba1089fb5bff89b8f578310e5df5942"}
+[2019-08-05 11:47:49] [DEBUG] http://127.0.0.1:55777 "GET /session/fba1089fb5bff89b8f578310e5df5942/screenshot HTTP/1.1" 200 13526
+[2019-08-05 11:47:49] [DEBUG] Finished Request
+[2019-08-05 11:47:49] [DEBUG] DELETE http://127.0.0.1:55777/session/fba1089fb5bff89b8f578310e5df5942 {"sessionId": "fba1089fb5bff89b8f578310e5df5942"}
+[2019-08-05 11:47:49] [DEBUG] http://127.0.0.1:55777 "DELETE /session/fba1089fb5bff89b8f578310e5df5942 HTTP/1.1" 200 72
+[2019-08-05 11:47:49] [DEBUG] Finished Request
+[2019-08-05 11:50:05] [DEBUG] POST http://127.0.0.1:55858/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 11:50:05] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:55858
+[2019-08-05 11:50:08] [DEBUG] http://127.0.0.1:55858 "POST /session HTTP/1.1" 200 833
+[2019-08-05 11:50:08] [DEBUG] Finished Request
+[2019-08-05 11:50:08] [DEBUG] POST http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:08] [DEBUG] http://127.0.0.1:55858 "POST /session/d135c494c9b8728459c1a7610690ba95/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 11:50:08] [DEBUG] Finished Request
+[2019-08-05 11:50:08] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-08-05 11:50:08] [DEBUG] POST http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:08] [DEBUG] http://127.0.0.1:55858 "POST /session/d135c494c9b8728459c1a7610690ba95/url HTTP/1.1" 200 72
+[2019-08-05 11:50:08] [DEBUG] Finished Request
+[2019-08-05 11:50:08] [DEBUG] POST http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95/window/current/maximize {"windowHandle": "current", "sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:10] [DEBUG] http://127.0.0.1:55858 "POST /session/d135c494c9b8728459c1a7610690ba95/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 11:50:10] [DEBUG] Finished Request
+[2019-08-05 11:50:10] [DEBUG] POST http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95/url {"url": "https://www.cnblogs.com/chongyou/", "sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:11] [DEBUG] http://127.0.0.1:55858 "POST /session/d135c494c9b8728459c1a7610690ba95/url HTTP/1.1" 200 72
+[2019-08-05 11:50:11] [DEBUG] Finished Request
+[2019-08-05 11:50:11] [INFO] 执行一个截图
+[2019-08-05 11:50:11] [DEBUG] GET http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95/screenshot {"sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:12] [DEBUG] http://127.0.0.1:55858 "GET /session/d135c494c9b8728459c1a7610690ba95/screenshot HTTP/1.1" 200 399394
+[2019-08-05 11:50:12] [DEBUG] Finished Request
+[2019-08-05 11:50:12] [DEBUG] GET http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95/screenshot {"sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:12] [DEBUG] http://127.0.0.1:55858 "GET /session/d135c494c9b8728459c1a7610690ba95/screenshot HTTP/1.1" 200 399586
+[2019-08-05 11:50:12] [DEBUG] Finished Request
+[2019-08-05 11:50:12] [DEBUG] POST http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:12] [DEBUG] http://127.0.0.1:55858 "POST /session/d135c494c9b8728459c1a7610690ba95/url HTTP/1.1" 200 72
+[2019-08-05 11:50:12] [DEBUG] Finished Request
+[2019-08-05 11:50:12] [DEBUG] GET http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95/screenshot {"sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:13] [DEBUG] http://127.0.0.1:55858 "GET /session/d135c494c9b8728459c1a7610690ba95/screenshot HTTP/1.1" 200 13526
+[2019-08-05 11:50:13] [DEBUG] Finished Request
+[2019-08-05 11:50:13] [DEBUG] GET http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95/screenshot {"sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:13] [DEBUG] http://127.0.0.1:55858 "GET /session/d135c494c9b8728459c1a7610690ba95/screenshot HTTP/1.1" 200 13526
+[2019-08-05 11:50:13] [DEBUG] Finished Request
+[2019-08-05 11:50:13] [DEBUG] DELETE http://127.0.0.1:55858/session/d135c494c9b8728459c1a7610690ba95 {"sessionId": "d135c494c9b8728459c1a7610690ba95"}
+[2019-08-05 11:50:13] [DEBUG] http://127.0.0.1:55858 "DELETE /session/d135c494c9b8728459c1a7610690ba95 HTTP/1.1" 200 72
+[2019-08-05 11:50:13] [DEBUG] Finished Request
+[2019-08-05 11:52:01] [DEBUG] POST http://127.0.0.1:55919/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 11:52:01] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:55919
+[2019-08-05 11:52:03] [DEBUG] http://127.0.0.1:55919 "POST /session HTTP/1.1" 200 833
+[2019-08-05 11:52:03] [DEBUG] Finished Request
+[2019-08-05 11:52:03] [DEBUG] POST http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:03] [DEBUG] http://127.0.0.1:55919 "POST /session/620b001d99675f540f5244f61f4edba5/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 11:52:03] [DEBUG] Finished Request
+[2019-08-05 11:52:03] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-08-05 11:52:03] [DEBUG] POST http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:04] [DEBUG] http://127.0.0.1:55919 "POST /session/620b001d99675f540f5244f61f4edba5/url HTTP/1.1" 200 72
+[2019-08-05 11:52:04] [DEBUG] Finished Request
+[2019-08-05 11:52:04] [DEBUG] POST http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5/window/current/maximize {"windowHandle": "current", "sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:06] [DEBUG] http://127.0.0.1:55919 "POST /session/620b001d99675f540f5244f61f4edba5/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 11:52:06] [DEBUG] Finished Request
+[2019-08-05 11:52:06] [DEBUG] POST http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5/url {"url": "https://www.cnblogs.com/chongyou/", "sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:07] [DEBUG] http://127.0.0.1:55919 "POST /session/620b001d99675f540f5244f61f4edba5/url HTTP/1.1" 200 72
+[2019-08-05 11:52:07] [DEBUG] Finished Request
+[2019-08-05 11:52:07] [INFO] 执行一个截图
+[2019-08-05 11:52:07] [DEBUG] GET http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5/screenshot {"sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:07] [DEBUG] http://127.0.0.1:55919 "GET /session/620b001d99675f540f5244f61f4edba5/screenshot HTTP/1.1" 200 385822
+[2019-08-05 11:52:07] [DEBUG] Finished Request
+[2019-08-05 11:52:07] [DEBUG] GET http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5/screenshot {"sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:07] [DEBUG] http://127.0.0.1:55919 "GET /session/620b001d99675f540f5244f61f4edba5/screenshot HTTP/1.1" 200 385822
+[2019-08-05 11:52:07] [DEBUG] Finished Request
+[2019-08-05 11:52:07] [DEBUG] DELETE http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5 {"sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:07] [DEBUG] http://127.0.0.1:55919 "DELETE /session/620b001d99675f540f5244f61f4edba5 HTTP/1.1" 200 72
+[2019-08-05 11:52:07] [DEBUG] Finished Request
+[2019-08-05 11:52:10] [DEBUG] POST http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:10] [DEBUG] Resetting dropped connection: 127.0.0.1
+[2019-08-05 11:52:11] [DEBUG] Incremented Retry for (url='/session/620b001d99675f540f5244f61f4edba5/url'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:11] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038D88B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/620b001d99675f540f5244f61f4edba5/url
+[2019-08-05 11:52:11] [DEBUG] Starting new HTTP connection (2): 127.0.0.1:55919
+[2019-08-05 11:52:12] [DEBUG] Incremented Retry for (url='/session/620b001d99675f540f5244f61f4edba5/url'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:12] [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038D8C10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/620b001d99675f540f5244f61f4edba5/url
+[2019-08-05 11:52:12] [DEBUG] Starting new HTTP connection (3): 127.0.0.1:55919
+[2019-08-05 11:52:13] [DEBUG] Incremented Retry for (url='/session/620b001d99675f540f5244f61f4edba5/url'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:13] [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03A0F2D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/620b001d99675f540f5244f61f4edba5/url
+[2019-08-05 11:52:13] [DEBUG] Starting new HTTP connection (4): 127.0.0.1:55919
+[2019-08-05 11:52:14] [DEBUG] GET http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5/screenshot {"sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:14] [DEBUG] Starting new HTTP connection (5): 127.0.0.1:55919
+[2019-08-05 11:52:15] [DEBUG] Incremented Retry for (url='/session/620b001d99675f540f5244f61f4edba5/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:15] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03A0F450>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/620b001d99675f540f5244f61f4edba5/screenshot
+[2019-08-05 11:52:15] [DEBUG] Starting new HTTP connection (6): 127.0.0.1:55919
+[2019-08-05 11:52:16] [DEBUG] Incremented Retry for (url='/session/620b001d99675f540f5244f61f4edba5/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:16] [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03A0F610>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/620b001d99675f540f5244f61f4edba5/screenshot
+[2019-08-05 11:52:16] [DEBUG] Starting new HTTP connection (7): 127.0.0.1:55919
+[2019-08-05 11:52:17] [DEBUG] Incremented Retry for (url='/session/620b001d99675f540f5244f61f4edba5/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:17] [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03A0F570>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/620b001d99675f540f5244f61f4edba5/screenshot
+[2019-08-05 11:52:17] [DEBUG] Starting new HTTP connection (8): 127.0.0.1:55919
+[2019-08-05 11:52:18] [DEBUG] DELETE http://127.0.0.1:55919/session/620b001d99675f540f5244f61f4edba5 {"sessionId": "620b001d99675f540f5244f61f4edba5"}
+[2019-08-05 11:52:18] [DEBUG] Starting new HTTP connection (9): 127.0.0.1:55919
+[2019-08-05 11:52:19] [DEBUG] Incremented Retry for (url='/session/620b001d99675f540f5244f61f4edba5'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:19] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03A0F850>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/620b001d99675f540f5244f61f4edba5
+[2019-08-05 11:52:19] [DEBUG] Starting new HTTP connection (10): 127.0.0.1:55919
+[2019-08-05 11:52:20] [DEBUG] Incremented Retry for (url='/session/620b001d99675f540f5244f61f4edba5'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:20] [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03A0F950>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/620b001d99675f540f5244f61f4edba5
+[2019-08-05 11:52:20] [DEBUG] Starting new HTTP connection (11): 127.0.0.1:55919
+[2019-08-05 11:52:21] [DEBUG] Incremented Retry for (url='/session/620b001d99675f540f5244f61f4edba5'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:21] [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03A0F8B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/620b001d99675f540f5244f61f4edba5
+[2019-08-05 11:52:21] [DEBUG] Starting new HTTP connection (12): 127.0.0.1:55919
+[2019-08-05 11:52:39] [DEBUG] POST http://127.0.0.1:55973/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 11:52:39] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:55973
+[2019-08-05 11:52:41] [DEBUG] http://127.0.0.1:55973 "POST /session HTTP/1.1" 200 833
+[2019-08-05 11:52:41] [DEBUG] Finished Request
+[2019-08-05 11:52:41] [DEBUG] POST http://127.0.0.1:55973/session/c540e71aaeb29699a10cdcb9d890d0ee/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "c540e71aaeb29699a10cdcb9d890d0ee"}
+[2019-08-05 11:52:41] [DEBUG] http://127.0.0.1:55973 "POST /session/c540e71aaeb29699a10cdcb9d890d0ee/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 11:52:41] [DEBUG] Finished Request
+[2019-08-05 11:52:41] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-08-05 11:52:41] [DEBUG] POST http://127.0.0.1:55973/session/c540e71aaeb29699a10cdcb9d890d0ee/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "c540e71aaeb29699a10cdcb9d890d0ee"}
+[2019-08-05 11:52:42] [DEBUG] http://127.0.0.1:55973 "POST /session/c540e71aaeb29699a10cdcb9d890d0ee/url HTTP/1.1" 200 72
+[2019-08-05 11:52:42] [DEBUG] Finished Request
+[2019-08-05 11:52:42] [DEBUG] POST http://127.0.0.1:55973/session/c540e71aaeb29699a10cdcb9d890d0ee/window/current/maximize {"windowHandle": "current", "sessionId": "c540e71aaeb29699a10cdcb9d890d0ee"}
+[2019-08-05 11:52:43] [DEBUG] http://127.0.0.1:55973 "POST /session/c540e71aaeb29699a10cdcb9d890d0ee/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 11:52:43] [DEBUG] Finished Request
+[2019-08-05 11:52:43] [DEBUG] POST http://127.0.0.1:55973/session/c540e71aaeb29699a10cdcb9d890d0ee/url {"url": "https://www.cnblogs.com/chongyou/", "sessionId": "c540e71aaeb29699a10cdcb9d890d0ee"}
+[2019-08-05 11:52:44] [DEBUG] http://127.0.0.1:55973 "POST /session/c540e71aaeb29699a10cdcb9d890d0ee/url HTTP/1.1" 200 72
+[2019-08-05 11:52:44] [DEBUG] Finished Request
+[2019-08-05 11:52:44] [INFO] 执行一个截图
+[2019-08-05 11:52:44] [DEBUG] GET http://127.0.0.1:55973/session/c540e71aaeb29699a10cdcb9d890d0ee/screenshot {"sessionId": "c540e71aaeb29699a10cdcb9d890d0ee"}
+[2019-08-05 11:52:44] [DEBUG] http://127.0.0.1:55973 "GET /session/c540e71aaeb29699a10cdcb9d890d0ee/screenshot HTTP/1.1" 200 419186
+[2019-08-05 11:52:44] [DEBUG] Finished Request
+[2019-08-05 11:52:44] [DEBUG] GET http://127.0.0.1:55973/session/c540e71aaeb29699a10cdcb9d890d0ee/screenshot {"sessionId": "c540e71aaeb29699a10cdcb9d890d0ee"}
+[2019-08-05 11:52:45] [DEBUG] http://127.0.0.1:55973 "GET /session/c540e71aaeb29699a10cdcb9d890d0ee/screenshot HTTP/1.1" 200 419186
+[2019-08-05 11:52:45] [DEBUG] Finished Request
+[2019-08-05 11:52:45] [DEBUG] DELETE http://127.0.0.1:55973/session/c540e71aaeb29699a10cdcb9d890d0ee {"sessionId": "c540e71aaeb29699a10cdcb9d890d0ee"}
+[2019-08-05 11:52:45] [DEBUG] http://127.0.0.1:55973 "DELETE /session/c540e71aaeb29699a10cdcb9d890d0ee HTTP/1.1" 200 72
+[2019-08-05 11:52:45] [DEBUG] Finished Request
+[2019-08-05 11:52:48] [DEBUG] POST http://127.0.0.1:55973/session/c540e71aaeb29699a10cdcb9d890d0ee/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "c540e71aaeb29699a10cdcb9d890d0ee"}
+[2019-08-05 11:52:48] [DEBUG] Resetting dropped connection: 127.0.0.1
+[2019-08-05 11:52:49] [DEBUG] Incremented Retry for (url='/session/c540e71aaeb29699a10cdcb9d890d0ee/url'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:49] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03837890>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/c540e71aaeb29699a10cdcb9d890d0ee/url
+[2019-08-05 11:52:49] [DEBUG] Starting new HTTP connection (2): 127.0.0.1:55973
+[2019-08-05 11:52:50] [DEBUG] Incremented Retry for (url='/session/c540e71aaeb29699a10cdcb9d890d0ee/url'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:50] [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03837AB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/c540e71aaeb29699a10cdcb9d890d0ee/url
+[2019-08-05 11:52:50] [DEBUG] Starting new HTTP connection (3): 127.0.0.1:55973
+[2019-08-05 11:52:51] [DEBUG] Incremented Retry for (url='/session/c540e71aaeb29699a10cdcb9d890d0ee/url'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:51] [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038BE490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/c540e71aaeb29699a10cdcb9d890d0ee/url
+[2019-08-05 11:52:51] [DEBUG] Starting new HTTP connection (4): 127.0.0.1:55973
+[2019-08-05 11:52:52] [DEBUG] GET http://127.0.0.1:55973/session/c540e71aaeb29699a10cdcb9d890d0ee/screenshot {"sessionId": "c540e71aaeb29699a10cdcb9d890d0ee"}
+[2019-08-05 11:52:52] [DEBUG] Starting new HTTP connection (5): 127.0.0.1:55973
+[2019-08-05 11:52:53] [DEBUG] Incremented Retry for (url='/session/c540e71aaeb29699a10cdcb9d890d0ee/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:53] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038BE450>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/c540e71aaeb29699a10cdcb9d890d0ee/screenshot
+[2019-08-05 11:52:53] [DEBUG] Starting new HTTP connection (6): 127.0.0.1:55973
+[2019-08-05 11:52:54] [DEBUG] Incremented Retry for (url='/session/c540e71aaeb29699a10cdcb9d890d0ee/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 11:52:54] [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038BE610>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/c540e71aaeb29699a10cdcb9d890d0ee/screenshot
+[2019-08-05 11:52:54] [DEBUG] Starting new HTTP connection (7): 127.0.0.1:55973
+[2019-08-05 17:20:50] [DEBUG] POST http://127.0.0.1:63111/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 17:20:50] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:63111
+[2019-08-05 17:20:58] [DEBUG] http://127.0.0.1:63111 "POST /session HTTP/1.1" 200 833
+[2019-08-05 17:20:58] [DEBUG] Finished Request
+[2019-08-05 17:20:58] [DEBUG] POST http://127.0.0.1:63111/session/7f2a24e9713654544c9c62631a93150d/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "7f2a24e9713654544c9c62631a93150d"}
+[2019-08-05 17:20:58] [DEBUG] http://127.0.0.1:63111 "POST /session/7f2a24e9713654544c9c62631a93150d/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 17:20:58] [DEBUG] Finished Request
+[2019-08-05 17:20:58] [INFO] https://www.cnblogs.com/chongyou/p/11159856.html
+[2019-08-05 17:20:58] [DEBUG] POST http://127.0.0.1:63111/session/7f2a24e9713654544c9c62631a93150d/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "7f2a24e9713654544c9c62631a93150d"}
+[2019-08-05 17:21:09] [DEBUG] http://127.0.0.1:63111 "POST /session/7f2a24e9713654544c9c62631a93150d/url HTTP/1.1" 200 72
+[2019-08-05 17:21:09] [DEBUG] Finished Request
+[2019-08-05 17:21:09] [DEBUG] POST http://127.0.0.1:63111/session/7f2a24e9713654544c9c62631a93150d/window/current/maximize {"windowHandle": "current", "sessionId": "7f2a24e9713654544c9c62631a93150d"}
+[2019-08-05 17:21:11] [DEBUG] http://127.0.0.1:63111 "POST /session/7f2a24e9713654544c9c62631a93150d/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 17:21:11] [DEBUG] Finished Request
+[2019-08-05 17:21:11] [DEBUG] POST http://127.0.0.1:63111/session/7f2a24e9713654544c9c62631a93150d/url {"url": "https://www.cnblogs.com/chongyou/", "sessionId": "7f2a24e9713654544c9c62631a93150d"}
+[2019-08-05 17:21:12] [DEBUG] http://127.0.0.1:63111 "POST /session/7f2a24e9713654544c9c62631a93150d/url HTTP/1.1" 200 72
+[2019-08-05 17:21:12] [DEBUG] Finished Request
+[2019-08-05 17:21:12] [INFO] 执行一个截图
+[2019-08-05 17:21:12] [DEBUG] GET http://127.0.0.1:63111/session/7f2a24e9713654544c9c62631a93150d/screenshot {"sessionId": "7f2a24e9713654544c9c62631a93150d"}
+[2019-08-05 17:21:12] [DEBUG] http://127.0.0.1:63111 "GET /session/7f2a24e9713654544c9c62631a93150d/screenshot HTTP/1.1" 200 385822
+[2019-08-05 17:21:12] [DEBUG] Finished Request
+[2019-08-05 17:21:12] [DEBUG] GET http://127.0.0.1:63111/session/7f2a24e9713654544c9c62631a93150d/screenshot {"sessionId": "7f2a24e9713654544c9c62631a93150d"}
+[2019-08-05 17:21:13] [DEBUG] http://127.0.0.1:63111 "GET /session/7f2a24e9713654544c9c62631a93150d/screenshot HTTP/1.1" 200 385822
+[2019-08-05 17:21:13] [DEBUG] Finished Request
+[2019-08-05 17:21:13] [DEBUG] DELETE http://127.0.0.1:63111/session/7f2a24e9713654544c9c62631a93150d {"sessionId": "7f2a24e9713654544c9c62631a93150d"}
+[2019-08-05 17:21:13] [DEBUG] http://127.0.0.1:63111 "DELETE /session/7f2a24e9713654544c9c62631a93150d HTTP/1.1" 200 72
+[2019-08-05 17:21:13] [DEBUG] Finished Request
+[2019-08-05 17:21:16] [DEBUG] POST http://127.0.0.1:63111/session/7f2a24e9713654544c9c62631a93150d/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "7f2a24e9713654544c9c62631a93150d"}
+[2019-08-05 17:21:16] [DEBUG] Resetting dropped connection: 127.0.0.1
+[2019-08-05 17:21:17] [DEBUG] Incremented Retry for (url='/session/7f2a24e9713654544c9c62631a93150d/url'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:21:17] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03887890>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/7f2a24e9713654544c9c62631a93150d/url
+[2019-08-05 17:21:17] [DEBUG] Starting new HTTP connection (2): 127.0.0.1:63111
+[2019-08-05 17:21:18] [DEBUG] Incremented Retry for (url='/session/7f2a24e9713654544c9c62631a93150d/url'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:21:18] [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03887AB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/7f2a24e9713654544c9c62631a93150d/url
+[2019-08-05 17:21:18] [DEBUG] Starting new HTTP connection (3): 127.0.0.1:63111
+[2019-08-05 17:21:19] [DEBUG] Incremented Retry for (url='/session/7f2a24e9713654544c9c62631a93150d/url'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:21:19] [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0396E2D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/7f2a24e9713654544c9c62631a93150d/url
+[2019-08-05 17:21:19] [DEBUG] Starting new HTTP connection (4): 127.0.0.1:63111
+[2019-08-05 17:21:20] [DEBUG] GET http://127.0.0.1:63111/session/7f2a24e9713654544c9c62631a93150d/screenshot {"sessionId": "7f2a24e9713654544c9c62631a93150d"}
+[2019-08-05 17:21:20] [DEBUG] Starting new HTTP connection (5): 127.0.0.1:63111
+[2019-08-05 17:21:21] [DEBUG] Incremented Retry for (url='/session/7f2a24e9713654544c9c62631a93150d/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:21:21] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0396E450>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/7f2a24e9713654544c9c62631a93150d/screenshot
+[2019-08-05 17:21:21] [DEBUG] Starting new HTTP connection (6): 127.0.0.1:63111
+[2019-08-05 17:36:46] [DEBUG] POST http://127.0.0.1:63729/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 17:36:46] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:63729
+[2019-08-05 17:36:52] [DEBUG] http://127.0.0.1:63729 "POST /session HTTP/1.1" 200 832
+[2019-08-05 17:36:52] [DEBUG] Finished Request
+[2019-08-05 17:36:52] [DEBUG] POST http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:36:52] [DEBUG] http://127.0.0.1:63729 "POST /session/532541d19e5e669296507e47b654ab4f/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 17:36:52] [DEBUG] Finished Request
+[2019-08-05 17:36:52] [INFO] https://www.cnblogs.com/chongyou/p/11159856.html
+[2019-08-05 17:36:52] [DEBUG] POST http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:36:54] [DEBUG] http://127.0.0.1:63729 "POST /session/532541d19e5e669296507e47b654ab4f/url HTTP/1.1" 200 72
+[2019-08-05 17:36:54] [DEBUG] Finished Request
+[2019-08-05 17:36:54] [DEBUG] POST http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f/window/current/maximize {"windowHandle": "current", "sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:36:55] [DEBUG] http://127.0.0.1:63729 "POST /session/532541d19e5e669296507e47b654ab4f/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 17:36:55] [DEBUG] Finished Request
+[2019-08-05 17:36:55] [DEBUG] POST http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f/url {"url": "https://www.cnblogs.com/chongyou/p/9602658.html", "sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:36:57] [DEBUG] http://127.0.0.1:63729 "POST /session/532541d19e5e669296507e47b654ab4f/url HTTP/1.1" 200 72
+[2019-08-05 17:36:57] [DEBUG] Finished Request
+[2019-08-05 17:36:57] [INFO] 执行一个截图
+[2019-08-05 17:36:57] [DEBUG] GET http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f/screenshot {"sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:36:57] [DEBUG] http://127.0.0.1:63729 "GET /session/532541d19e5e669296507e47b654ab4f/screenshot HTTP/1.1" 200 411442
+[2019-08-05 17:36:57] [DEBUG] Finished Request
+[2019-08-05 17:36:57] [DEBUG] GET http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f/screenshot {"sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:36:57] [DEBUG] http://127.0.0.1:63729 "GET /session/532541d19e5e669296507e47b654ab4f/screenshot HTTP/1.1" 200 411442
+[2019-08-05 17:36:57] [DEBUG] Finished Request
+[2019-08-05 17:36:57] [DEBUG] DELETE http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f {"sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:36:57] [DEBUG] http://127.0.0.1:63729 "DELETE /session/532541d19e5e669296507e47b654ab4f HTTP/1.1" 200 72
+[2019-08-05 17:36:57] [DEBUG] Finished Request
+[2019-08-05 17:37:00] [DEBUG] POST http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:37:00] [DEBUG] Resetting dropped connection: 127.0.0.1
+[2019-08-05 17:37:01] [DEBUG] Incremented Retry for (url='/session/532541d19e5e669296507e47b654ab4f/url'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:37:01] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03888870>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/532541d19e5e669296507e47b654ab4f/url
+[2019-08-05 17:37:01] [DEBUG] Starting new HTTP connection (2): 127.0.0.1:63729
+[2019-08-05 17:37:02] [DEBUG] Incremented Retry for (url='/session/532541d19e5e669296507e47b654ab4f/url'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:37:02] [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03888CD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/532541d19e5e669296507e47b654ab4f/url
+[2019-08-05 17:37:02] [DEBUG] Starting new HTTP connection (3): 127.0.0.1:63729
+[2019-08-05 17:37:03] [DEBUG] Incremented Retry for (url='/session/532541d19e5e669296507e47b654ab4f/url'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:37:03] [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0391E2D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/532541d19e5e669296507e47b654ab4f/url
+[2019-08-05 17:37:03] [DEBUG] Starting new HTTP connection (4): 127.0.0.1:63729
+[2019-08-05 17:37:04] [DEBUG] GET http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f/screenshot {"sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:37:04] [DEBUG] Starting new HTTP connection (5): 127.0.0.1:63729
+[2019-08-05 17:37:05] [DEBUG] Incremented Retry for (url='/session/532541d19e5e669296507e47b654ab4f/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:37:05] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0391E450>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/532541d19e5e669296507e47b654ab4f/screenshot
+[2019-08-05 17:37:05] [DEBUG] Starting new HTTP connection (6): 127.0.0.1:63729
+[2019-08-05 17:37:06] [DEBUG] Incremented Retry for (url='/session/532541d19e5e669296507e47b654ab4f/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:37:06] [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0391E630>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/532541d19e5e669296507e47b654ab4f/screenshot
+[2019-08-05 17:37:06] [DEBUG] Starting new HTTP connection (7): 127.0.0.1:63729
+[2019-08-05 17:37:07] [DEBUG] Incremented Retry for (url='/session/532541d19e5e669296507e47b654ab4f/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:37:07] [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0391E570>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/532541d19e5e669296507e47b654ab4f/screenshot
+[2019-08-05 17:37:07] [DEBUG] Starting new HTTP connection (8): 127.0.0.1:63729
+[2019-08-05 17:37:08] [DEBUG] DELETE http://127.0.0.1:63729/session/532541d19e5e669296507e47b654ab4f {"sessionId": "532541d19e5e669296507e47b654ab4f"}
+[2019-08-05 17:37:08] [DEBUG] Starting new HTTP connection (9): 127.0.0.1:63729
+[2019-08-05 17:37:09] [DEBUG] Incremented Retry for (url='/session/532541d19e5e669296507e47b654ab4f'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:37:09] [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0391E890>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/532541d19e5e669296507e47b654ab4f
+[2019-08-05 17:37:09] [DEBUG] Starting new HTTP connection (10): 127.0.0.1:63729
+[2019-08-05 17:37:10] [DEBUG] Incremented Retry for (url='/session/532541d19e5e669296507e47b654ab4f'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:37:10] [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0391E950>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/532541d19e5e669296507e47b654ab4f
+[2019-08-05 17:37:10] [DEBUG] Starting new HTTP connection (11): 127.0.0.1:63729
+[2019-08-05 17:37:11] [DEBUG] Incremented Retry for (url='/session/532541d19e5e669296507e47b654ab4f'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+[2019-08-05 17:37:11] [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0391E7F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/532541d19e5e669296507e47b654ab4f
+[2019-08-05 17:37:11] [DEBUG] Starting new HTTP connection (12): 127.0.0.1:63729
+[2019-08-05 17:42:15] [DEBUG] POST http://127.0.0.1:63942/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 17:42:15] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:63942
+[2019-08-05 17:42:17] [DEBUG] http://127.0.0.1:63942 "POST /session HTTP/1.1" 200 833
+[2019-08-05 17:42:17] [DEBUG] Finished Request
+[2019-08-05 17:42:17] [DEBUG] POST http://127.0.0.1:63942/session/3ccdf838cf91d1f6ab5c36b0fea992fa/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "3ccdf838cf91d1f6ab5c36b0fea992fa"}
+[2019-08-05 17:42:17] [DEBUG] http://127.0.0.1:63942 "POST /session/3ccdf838cf91d1f6ab5c36b0fea992fa/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 17:42:17] [DEBUG] Finished Request
+[2019-08-05 17:42:17] [INFO] https://www.cnblogs.com/chongyou/p/11159856.html
+[2019-08-05 17:42:17] [DEBUG] POST http://127.0.0.1:63942/session/3ccdf838cf91d1f6ab5c36b0fea992fa/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "3ccdf838cf91d1f6ab5c36b0fea992fa"}
+[2019-08-05 17:42:20] [DEBUG] http://127.0.0.1:63942 "POST /session/3ccdf838cf91d1f6ab5c36b0fea992fa/url HTTP/1.1" 200 72
+[2019-08-05 17:42:20] [DEBUG] Finished Request
+[2019-08-05 17:42:20] [DEBUG] POST http://127.0.0.1:63942/session/3ccdf838cf91d1f6ab5c36b0fea992fa/window/current/maximize {"windowHandle": "current", "sessionId": "3ccdf838cf91d1f6ab5c36b0fea992fa"}
+[2019-08-05 17:42:21] [DEBUG] http://127.0.0.1:63942 "POST /session/3ccdf838cf91d1f6ab5c36b0fea992fa/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 17:42:21] [DEBUG] Finished Request
+[2019-08-05 17:42:21] [DEBUG] POST http://127.0.0.1:63942/session/3ccdf838cf91d1f6ab5c36b0fea992fa/url {"url": "https://www.cnblogs.com/chongyou/p/9602658.html", "sessionId": "3ccdf838cf91d1f6ab5c36b0fea992fa"}
+[2019-08-05 17:42:22] [DEBUG] http://127.0.0.1:63942 "POST /session/3ccdf838cf91d1f6ab5c36b0fea992fa/url HTTP/1.1" 200 72
+[2019-08-05 17:42:22] [DEBUG] Finished Request
+[2019-08-05 17:42:22] [INFO] 执行一个截图
+[2019-08-05 17:42:22] [DEBUG] GET http://127.0.0.1:63942/session/3ccdf838cf91d1f6ab5c36b0fea992fa/screenshot {"sessionId": "3ccdf838cf91d1f6ab5c36b0fea992fa"}
+[2019-08-05 17:42:22] [DEBUG] http://127.0.0.1:63942 "GET /session/3ccdf838cf91d1f6ab5c36b0fea992fa/screenshot HTTP/1.1" 200 412226
+[2019-08-05 17:42:22] [DEBUG] Finished Request
+[2019-08-05 17:42:22] [DEBUG] GET http://127.0.0.1:63942/session/3ccdf838cf91d1f6ab5c36b0fea992fa/screenshot {"sessionId": "3ccdf838cf91d1f6ab5c36b0fea992fa"}
+[2019-08-05 17:42:23] [DEBUG] http://127.0.0.1:63942 "GET /session/3ccdf838cf91d1f6ab5c36b0fea992fa/screenshot HTTP/1.1" 200 412226
+[2019-08-05 17:42:23] [DEBUG] Finished Request
+[2019-08-05 17:42:23] [DEBUG] POST http://127.0.0.1:63942/session/3ccdf838cf91d1f6ab5c36b0fea992fa/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "3ccdf838cf91d1f6ab5c36b0fea992fa"}
+[2019-08-05 17:42:23] [DEBUG] http://127.0.0.1:63942 "POST /session/3ccdf838cf91d1f6ab5c36b0fea992fa/url HTTP/1.1" 200 72
+[2019-08-05 17:42:23] [DEBUG] Finished Request
+[2019-08-05 17:42:23] [DEBUG] GET http://127.0.0.1:63942/session/3ccdf838cf91d1f6ab5c36b0fea992fa/screenshot {"sessionId": "3ccdf838cf91d1f6ab5c36b0fea992fa"}
+[2019-08-05 17:42:24] [DEBUG] http://127.0.0.1:63942 "GET /session/3ccdf838cf91d1f6ab5c36b0fea992fa/screenshot HTTP/1.1" 200 383122
+[2019-08-05 17:42:24] [DEBUG] Finished Request
+[2019-08-05 17:42:24] [DEBUG] GET http://127.0.0.1:63942/session/3ccdf838cf91d1f6ab5c36b0fea992fa/screenshot {"sessionId": "3ccdf838cf91d1f6ab5c36b0fea992fa"}
+[2019-08-05 17:42:24] [DEBUG] http://127.0.0.1:63942 "GET /session/3ccdf838cf91d1f6ab5c36b0fea992fa/screenshot HTTP/1.1" 200 383122
+[2019-08-05 17:42:24] [DEBUG] Finished Request
+[2019-08-05 17:43:53] [DEBUG] POST http://127.0.0.1:64038/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 17:43:53] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:64038
+[2019-08-05 17:43:57] [DEBUG] http://127.0.0.1:64038 "POST /session HTTP/1.1" 200 833
+[2019-08-05 17:43:57] [DEBUG] Finished Request
+[2019-08-05 17:43:57] [DEBUG] POST http://127.0.0.1:64038/session/1a0c24996287e166c64af969b3b10417/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "1a0c24996287e166c64af969b3b10417"}
+[2019-08-05 17:43:57] [DEBUG] http://127.0.0.1:64038 "POST /session/1a0c24996287e166c64af969b3b10417/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 17:43:57] [DEBUG] Finished Request
+[2019-08-05 17:43:57] [INFO] https://www.cnblogs.com/chongyou/p/11159856.html
+[2019-08-05 17:43:57] [DEBUG] POST http://127.0.0.1:64038/session/1a0c24996287e166c64af969b3b10417/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "1a0c24996287e166c64af969b3b10417"}
+[2019-08-05 17:44:11] [DEBUG] http://127.0.0.1:64038 "POST /session/1a0c24996287e166c64af969b3b10417/url HTTP/1.1" 200 72
+[2019-08-05 17:44:11] [DEBUG] Finished Request
+[2019-08-05 17:44:11] [DEBUG] POST http://127.0.0.1:64038/session/1a0c24996287e166c64af969b3b10417/window/current/maximize {"windowHandle": "current", "sessionId": "1a0c24996287e166c64af969b3b10417"}
+[2019-08-05 17:44:12] [DEBUG] http://127.0.0.1:64038 "POST /session/1a0c24996287e166c64af969b3b10417/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 17:44:13] [DEBUG] Finished Request
+[2019-08-05 17:44:13] [DEBUG] POST http://127.0.0.1:64038/session/1a0c24996287e166c64af969b3b10417/url {"url": "https://www.cnblogs.com/chongyou/p/9602658.html", "sessionId": "1a0c24996287e166c64af969b3b10417"}
+[2019-08-05 17:44:16] [DEBUG] http://127.0.0.1:64038 "POST /session/1a0c24996287e166c64af969b3b10417/url HTTP/1.1" 200 72
+[2019-08-05 17:44:16] [DEBUG] Finished Request
+[2019-08-05 17:44:16] [INFO] 执行一个截图
+[2019-08-05 17:44:16] [DEBUG] GET http://127.0.0.1:64038/session/1a0c24996287e166c64af969b3b10417/screenshot {"sessionId": "1a0c24996287e166c64af969b3b10417"}
+[2019-08-05 17:44:17] [DEBUG] http://127.0.0.1:64038 "GET /session/1a0c24996287e166c64af969b3b10417/screenshot HTTP/1.1" 200 412226
+[2019-08-05 17:44:17] [DEBUG] Finished Request
+[2019-08-05 17:44:17] [DEBUG] GET http://127.0.0.1:64038/session/1a0c24996287e166c64af969b3b10417/screenshot {"sessionId": "1a0c24996287e166c64af969b3b10417"}
+[2019-08-05 17:44:17] [DEBUG] http://127.0.0.1:64038 "GET /session/1a0c24996287e166c64af969b3b10417/screenshot HTTP/1.1" 200 412226
+[2019-08-05 17:44:17] [DEBUG] Finished Request
+[2019-08-05 17:44:17] [DEBUG] POST http://127.0.0.1:64038/session/1a0c24996287e166c64af969b3b10417/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "1a0c24996287e166c64af969b3b10417"}
+[2019-08-05 17:44:19] [DEBUG] http://127.0.0.1:64038 "POST /session/1a0c24996287e166c64af969b3b10417/url HTTP/1.1" 200 72
+[2019-08-05 17:44:19] [DEBUG] Finished Request
+[2019-08-05 17:44:19] [DEBUG] GET http://127.0.0.1:64038/session/1a0c24996287e166c64af969b3b10417/screenshot {"sessionId": "1a0c24996287e166c64af969b3b10417"}
+[2019-08-05 17:44:19] [DEBUG] http://127.0.0.1:64038 "GET /session/1a0c24996287e166c64af969b3b10417/screenshot HTTP/1.1" 200 383122
+[2019-08-05 17:44:19] [DEBUG] Finished Request
+[2019-08-05 17:44:19] [DEBUG] GET http://127.0.0.1:64038/session/1a0c24996287e166c64af969b3b10417/screenshot {"sessionId": "1a0c24996287e166c64af969b3b10417"}
+[2019-08-05 17:44:20] [DEBUG] http://127.0.0.1:64038 "GET /session/1a0c24996287e166c64af969b3b10417/screenshot HTTP/1.1" 200 383122
+[2019-08-05 17:44:20] [DEBUG] Finished Request
+[2019-08-05 17:45:22] [DEBUG] POST http://127.0.0.1:64162/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-08-05 17:45:22] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:64162
+[2019-08-05 17:45:35] [DEBUG] http://127.0.0.1:64162 "POST /session HTTP/1.1" 200 833
+[2019-08-05 17:45:35] [DEBUG] Finished Request
+[2019-08-05 17:45:35] [DEBUG] POST http://127.0.0.1:64162/session/3ab5fb1367c62edb7c363b7014bfed32/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "3ab5fb1367c62edb7c363b7014bfed32"}
+[2019-08-05 17:45:35] [DEBUG] http://127.0.0.1:64162 "POST /session/3ab5fb1367c62edb7c363b7014bfed32/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-08-05 17:45:35] [DEBUG] Finished Request
+[2019-08-05 17:45:35] [INFO] https://www.cnblogs.com/chongyou/p/11159856.html
+[2019-08-05 17:45:35] [DEBUG] POST http://127.0.0.1:64162/session/3ab5fb1367c62edb7c363b7014bfed32/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "3ab5fb1367c62edb7c363b7014bfed32"}
+[2019-08-05 17:45:44] [DEBUG] http://127.0.0.1:64162 "POST /session/3ab5fb1367c62edb7c363b7014bfed32/url HTTP/1.1" 200 72
+[2019-08-05 17:45:44] [DEBUG] Finished Request
+[2019-08-05 17:45:44] [DEBUG] POST http://127.0.0.1:64162/session/3ab5fb1367c62edb7c363b7014bfed32/window/current/maximize {"windowHandle": "current", "sessionId": "3ab5fb1367c62edb7c363b7014bfed32"}
+[2019-08-05 17:45:45] [DEBUG] http://127.0.0.1:64162 "POST /session/3ab5fb1367c62edb7c363b7014bfed32/window/current/maximize HTTP/1.1" 200 72
+[2019-08-05 17:45:45] [DEBUG] Finished Request
+[2019-08-05 17:45:45] [DEBUG] POST http://127.0.0.1:64162/session/3ab5fb1367c62edb7c363b7014bfed32/url {"url": "https://www.cnblogs.com/chongyou/p/9602658.html", "sessionId": "3ab5fb1367c62edb7c363b7014bfed32"}
+[2019-08-05 17:45:47] [DEBUG] http://127.0.0.1:64162 "POST /session/3ab5fb1367c62edb7c363b7014bfed32/url HTTP/1.1" 200 72
+[2019-08-05 17:45:47] [DEBUG] Finished Request
+[2019-08-05 17:45:47] [INFO] 执行一个截图
+[2019-08-05 17:45:47] [DEBUG] GET http://127.0.0.1:64162/session/3ab5fb1367c62edb7c363b7014bfed32/screenshot {"sessionId": "3ab5fb1367c62edb7c363b7014bfed32"}
+[2019-08-05 17:45:47] [DEBUG] http://127.0.0.1:64162 "GET /session/3ab5fb1367c62edb7c363b7014bfed32/screenshot HTTP/1.1" 200 412226
+[2019-08-05 17:45:47] [DEBUG] Finished Request
+[2019-08-05 17:45:47] [DEBUG] GET http://127.0.0.1:64162/session/3ab5fb1367c62edb7c363b7014bfed32/screenshot {"sessionId": "3ab5fb1367c62edb7c363b7014bfed32"}
+[2019-08-05 17:45:48] [DEBUG] http://127.0.0.1:64162 "GET /session/3ab5fb1367c62edb7c363b7014bfed32/screenshot HTTP/1.1" 200 412226
+[2019-08-05 17:45:48] [DEBUG] Finished Request
+[2019-08-05 17:45:48] [DEBUG] POST http://127.0.0.1:64162/session/3ab5fb1367c62edb7c363b7014bfed32/url {"url": "https://www.cnblogs.com/chongyou/p/11159856.html", "sessionId": "3ab5fb1367c62edb7c363b7014bfed32"}
+[2019-08-05 17:45:48] [DEBUG] http://127.0.0.1:64162 "POST /session/3ab5fb1367c62edb7c363b7014bfed32/url HTTP/1.1" 200 72
+[2019-08-05 17:45:48] [DEBUG] Finished Request
+[2019-08-05 17:45:48] [DEBUG] GET http://127.0.0.1:64162/session/3ab5fb1367c62edb7c363b7014bfed32/screenshot {"sessionId": "3ab5fb1367c62edb7c363b7014bfed32"}
+[2019-08-05 17:45:48] [DEBUG] http://127.0.0.1:64162 "GET /session/3ab5fb1367c62edb7c363b7014bfed32/screenshot HTTP/1.1" 200 383122
+[2019-08-05 17:45:48] [DEBUG] Finished Request

@@ -1,0 +1,12 @@
+testenvironment:
+  dec: 测试环境
+  username: jun@qq.com
+  password: zhangjun1!
+  login_url: https://www.cnblogs.com/chongyou/p/11159856.html
+  shooping_url: https://www.cnblogs.com/chongyou/p/9602658.html
+prdenvironment:
+  dec: 测试环境
+  username: jun@qq.com
+  password: zhangjun1!
+  login_url: https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+  shooping_url: https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1

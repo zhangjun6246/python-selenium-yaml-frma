@@ -1,0 +1,75 @@
+[2019-07-05 15:30:20] [DEBUG] POST http://127.0.0.1:56442/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-05 15:30:20] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:56442
+[2019-07-05 15:30:39] [DEBUG] http://127.0.0.1:56442 "POST /session HTTP/1.1" 200 832
+[2019-07-05 15:30:39] [DEBUG] Finished Request
+[2019-07-05 15:30:39] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:30:39] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-05 15:30:39] [DEBUG] Finished Request
+[2019-07-05 15:30:39] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:07] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/url HTTP/1.1" 200 72
+[2019-07-05 15:31:07] [DEBUG] Finished Request
+[2019-07-05 15:31:07] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/window/current/maximize {"windowHandle": "current", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:08] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/window/current/maximize HTTP/1.1" 200 72
+[2019-07-05 15:31:08] [DEBUG] Finished Request
+[2019-07-05 15:31:08] [INFO] ???yaml???
+[2019-07-05 15:31:08] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:10] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/element HTTP/1.1" 200 102
+[2019-07-05 15:31:10] [DEBUG] Finished Request
+[2019-07-05 15:31:10] [INFO] ??????????????????xpath     ??://input[@class='custom-text']     
+[2019-07-05 15:31:10] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-1/clear {"id": "0.7696208078018014-1", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:10] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-1/clear HTTP/1.1" 200 72
+[2019-07-05 15:31:10] [DEBUG] Finished Request
+[2019-07-05 15:31:10] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.7696208078018014-1", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:10] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-1/value HTTP/1.1" 200 72
+[2019-07-05 15:31:10] [DEBUG] Finished Request
+[2019-07-05 15:31:10] [INFO] ???yaml???
+[2019-07-05 15:31:10] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/element {"using": "xpath", "value": "//input[@class='custom-text password']", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:10] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/element HTTP/1.1" 200 102
+[2019-07-05 15:31:10] [DEBUG] Finished Request
+[2019-07-05 15:31:10] [INFO] ??????????????????xpath     ??://input[@class='custom-text password']     
+[2019-07-05 15:31:10] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-2/clear {"id": "0.7696208078018014-2", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:10] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-2/clear HTTP/1.1" 200 72
+[2019-07-05 15:31:10] [DEBUG] Finished Request
+[2019-07-05 15:31:10] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-2/value {"text": "zhangjun1!", "value": ["z", "h", "a", "n", "g", "j", "u", "n", "1", "!"], "id": "0.7696208078018014-2", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:10] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-2/value HTTP/1.1" 200 72
+[2019-07-05 15:31:10] [DEBUG] Finished Request
+[2019-07-05 15:31:10] [INFO] ???yaml???
+[2019-07-05 15:31:10] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:10] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/element HTTP/1.1" 200 102
+[2019-07-05 15:31:10] [DEBUG] Finished Request
+[2019-07-05 15:31:10] [INFO] ??????????????????xpath     ??://button[@type='submit']     
+[2019-07-05 15:31:10] [DEBUG] POST http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-3/click {"id": "0.7696208078018014-3", "sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:10] [DEBUG] http://127.0.0.1:56442 "POST /session/3456e7cab710ad61311e323d654ebd79/element/0.7696208078018014-3/click HTTP/1.1" 200 72
+[2019-07-05 15:31:10] [DEBUG] Finished Request
+[2019-07-05 15:31:15] [DEBUG] DELETE http://127.0.0.1:56442/session/3456e7cab710ad61311e323d654ebd79 {"sessionId": "3456e7cab710ad61311e323d654ebd79"}
+[2019-07-05 15:31:15] [DEBUG] http://127.0.0.1:56442 "DELETE /session/3456e7cab710ad61311e323d654ebd79 HTTP/1.1" 200 72
+[2019-07-05 15:31:15] [DEBUG] Finished Request
+[2019-07-05 15:31:22] [DEBUG] POST http://127.0.0.1:56544/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-05 15:31:22] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:56544
+[2019-07-05 15:31:24] [DEBUG] http://127.0.0.1:56544 "POST /session HTTP/1.1" 200 833
+[2019-07-05 15:31:24] [DEBUG] Finished Request
+[2019-07-05 15:31:24] [DEBUG] POST http://127.0.0.1:56544/session/2f7b732a6d473da43656b4ff6c393398/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "2f7b732a6d473da43656b4ff6c393398"}
+[2019-07-05 15:31:50] [DEBUG] http://127.0.0.1:56544 "POST /session/2f7b732a6d473da43656b4ff6c393398/url HTTP/1.1" 200 72
+[2019-07-05 15:31:50] [DEBUG] Finished Request
+[2019-07-05 15:31:50] [INFO] None
+[2019-07-05 15:31:50] [DEBUG] DELETE http://127.0.0.1:56544/session/2f7b732a6d473da43656b4ff6c393398 {"sessionId": "2f7b732a6d473da43656b4ff6c393398"}
+[2019-07-05 15:31:50] [DEBUG] http://127.0.0.1:56544 "DELETE /session/2f7b732a6d473da43656b4ff6c393398 HTTP/1.1" 200 72
+[2019-07-05 15:31:50] [DEBUG] Finished Request
+[2019-07-05 18:10:42] [DEBUG] POST http://127.0.0.1:60152/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-05 18:10:42] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:60152
+[2019-07-05 18:10:50] [DEBUG] http://127.0.0.1:60152 "POST /session HTTP/1.1" 200 832
+[2019-07-05 18:10:50] [DEBUG] Finished Request
+[2019-07-05 18:10:50] [DEBUG] DELETE http://127.0.0.1:60152/session/49a9bccb60111231cd0e1af489724e53 {"sessionId": "49a9bccb60111231cd0e1af489724e53"}
+[2019-07-05 18:10:50] [DEBUG] http://127.0.0.1:60152 "DELETE /session/49a9bccb60111231cd0e1af489724e53 HTTP/1.1" 200 72
+[2019-07-05 18:10:50] [DEBUG] Finished Request
+[2019-07-05 18:10:56] [DEBUG] POST http://127.0.0.1:60177/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-05 18:10:56] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:60177
+[2019-07-05 18:10:59] [DEBUG] http://127.0.0.1:60177 "POST /session HTTP/1.1" 200 833
+[2019-07-05 18:10:59] [DEBUG] Finished Request
+[2019-07-05 18:10:59] [DEBUG] POST http://127.0.0.1:60177/session/acedd4a637bea7f6ad9b8e3d143abc33/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "acedd4a637bea7f6ad9b8e3d143abc33"}
+[2019-07-05 18:11:26] [DEBUG] http://127.0.0.1:60177 "POST /session/acedd4a637bea7f6ad9b8e3d143abc33/url HTTP/1.1" 200 72
+[2019-07-05 18:11:26] [DEBUG] Finished Request
+[2019-07-05 18:11:26] [INFO] None
+[2019-07-05 18:11:26] [DEBUG] DELETE http://127.0.0.1:60177/session/acedd4a637bea7f6ad9b8e3d143abc33 {"sessionId": "acedd4a637bea7f6ad9b8e3d143abc33"}
+[2019-07-05 18:11:26] [DEBUG] http://127.0.0.1:60177 "DELETE /session/acedd4a637bea7f6ad9b8e3d143abc33 HTTP/1.1" 200 72
+[2019-07-05 18:11:26] [DEBUG] Finished Request

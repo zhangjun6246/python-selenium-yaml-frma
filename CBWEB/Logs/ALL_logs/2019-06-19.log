@@ -1,0 +1,100 @@
+[2019-06-19 11:35:42] [DEBUG] POST http://127.0.0.1:58548/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-19 11:35:42] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:58548
+[2019-06-19 11:36:28] [DEBUG] http://127.0.0.1:58548 "POST /session HTTP/1.1" 200 832
+[2019-06-19 11:36:28] [DEBUG] Finished Request
+[2019-06-19 11:36:28] [INFO] 1234
+[2019-06-19 11:36:28] [DEBUG] POST http://127.0.0.1:58548/session/c6acf2768c18c05151b6d21a623d6fc2/url {"url": "https://www.chinabrands.com/site/login.html/", "sessionId": "c6acf2768c18c05151b6d21a623d6fc2"}
+[2019-06-19 11:36:33] [DEBUG] http://127.0.0.1:58548 "POST /session/c6acf2768c18c05151b6d21a623d6fc2/url HTTP/1.1" 200 403
+[2019-06-19 11:36:33] [DEBUG] Finished Request
+[2019-06-19 11:36:33] [DEBUG] DELETE http://127.0.0.1:58548/session/c6acf2768c18c05151b6d21a623d6fc2 {"sessionId": "c6acf2768c18c05151b6d21a623d6fc2"}
+[2019-06-19 11:36:33] [DEBUG] http://127.0.0.1:58548 "DELETE /session/c6acf2768c18c05151b6d21a623d6fc2 HTTP/1.1" 200 72
+[2019-06-19 11:36:33] [DEBUG] Finished Request
+[2019-06-19 11:36:47] [DEBUG] POST http://127.0.0.1:58767/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-19 11:36:47] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:58767
+[2019-06-19 11:36:50] [DEBUG] http://127.0.0.1:58767 "POST /session HTTP/1.1" 200 833
+[2019-06-19 11:36:50] [DEBUG] Finished Request
+[2019-06-19 11:36:50] [INFO] 1234
+[2019-06-19 11:36:50] [DEBUG] POST http://127.0.0.1:58767/session/6f267a1ede81bc16d2f21a47899e4e48/url {"url": "https://www.chinabrands.com/site/login.html/", "sessionId": "6f267a1ede81bc16d2f21a47899e4e48"}
+[2019-06-19 11:37:20] [DEBUG] http://127.0.0.1:58767 "POST /session/6f267a1ede81bc16d2f21a47899e4e48/url HTTP/1.1" 200 72
+[2019-06-19 11:37:20] [DEBUG] Finished Request
+[2019-06-19 11:37:20] [DEBUG] POST http://127.0.0.1:58767/session/6f267a1ede81bc16d2f21a47899e4e48/element {"using": ["xpath", "//input[@class='custom-text']"], "value": null, "sessionId": "6f267a1ede81bc16d2f21a47899e4e48"}
+[2019-06-19 11:37:20] [DEBUG] http://127.0.0.1:58767 "POST /session/6f267a1ede81bc16d2f21a47899e4e48/element HTTP/1.1" 200 291
+[2019-06-19 11:37:20] [DEBUG] Finished Request
+[2019-06-19 11:38:04] [DEBUG] POST http://127.0.0.1:58934/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-19 11:38:04] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:58934
+[2019-06-19 11:38:07] [DEBUG] http://127.0.0.1:58934 "POST /session HTTP/1.1" 200 832
+[2019-06-19 11:38:07] [DEBUG] Finished Request
+[2019-06-19 11:38:07] [INFO] 1234
+[2019-06-19 11:38:07] [DEBUG] POST http://127.0.0.1:58934/session/89f568f7a6a31070118f9b932fce4f72/url {"url": "https://www.chinabrands.com/site/login.html?rel=/site/login.html/", "sessionId": "89f568f7a6a31070118f9b932fce4f72"}
+[2019-06-19 11:38:12] [DEBUG] http://127.0.0.1:58934 "POST /session/89f568f7a6a31070118f9b932fce4f72/url HTTP/1.1" 200 72
+[2019-06-19 11:38:12] [DEBUG] Finished Request
+[2019-06-19 11:38:12] [DEBUG] POST http://127.0.0.1:58934/session/89f568f7a6a31070118f9b932fce4f72/element {"using": ["xpath", "//input[@class='custom-text']"], "value": null, "sessionId": "89f568f7a6a31070118f9b932fce4f72"}
+[2019-06-19 11:38:12] [DEBUG] http://127.0.0.1:58934 "POST /session/89f568f7a6a31070118f9b932fce4f72/element HTTP/1.1" 200 291
+[2019-06-19 11:38:12] [DEBUG] Finished Request
+[2019-06-19 11:39:31] [DEBUG] POST http://127.0.0.1:59160/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-19 11:39:31] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:59160
+[2019-06-19 11:39:33] [DEBUG] http://127.0.0.1:59160 "POST /session HTTP/1.1" 200 833
+[2019-06-19 11:39:33] [DEBUG] Finished Request
+[2019-06-19 11:39:33] [INFO] 1234
+[2019-06-19 11:39:33] [DEBUG] POST http://127.0.0.1:59160/session/078c2ea0a884794beb99f46043e43d61/url {"url": "https://www.chinabrands.com/site/login.html?rel=/site/login.html/", "sessionId": "078c2ea0a884794beb99f46043e43d61"}
+[2019-06-19 11:39:36] [DEBUG] http://127.0.0.1:59160 "POST /session/078c2ea0a884794beb99f46043e43d61/url HTTP/1.1" 200 72
+[2019-06-19 11:39:36] [DEBUG] Finished Request
+[2019-06-19 11:39:36] [DEBUG] POST http://127.0.0.1:59160/session/078c2ea0a884794beb99f46043e43d61/element {"using": ["xpath", "//input[@class='custom-text']"], "value": null, "sessionId": "078c2ea0a884794beb99f46043e43d61"}
+[2019-06-19 11:39:36] [DEBUG] http://127.0.0.1:59160 "POST /session/078c2ea0a884794beb99f46043e43d61/element HTTP/1.1" 200 291
+[2019-06-19 11:39:36] [DEBUG] Finished Request
+[2019-06-19 11:43:20] [INFO] 1234
+[2019-06-19 11:46:30] [DEBUG] POST http://127.0.0.1:59835/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-19 11:46:30] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:59835
+[2019-06-19 11:46:33] [DEBUG] http://127.0.0.1:59835 "POST /session HTTP/1.1" 200 832
+[2019-06-19 11:46:33] [DEBUG] Finished Request
+[2019-06-19 11:46:33] [INFO] 1234
+[2019-06-19 11:46:33] [DEBUG] POST http://127.0.0.1:59835/session/0508c87b28d28ac63507511c093df6b7/url {"url": "https://www.chinabrands.com/site/login.html?rel=/site/login.html/", "sessionId": "0508c87b28d28ac63507511c093df6b7"}
+[2019-06-19 11:46:40] [DEBUG] http://127.0.0.1:59835 "POST /session/0508c87b28d28ac63507511c093df6b7/url HTTP/1.1" 200 72
+[2019-06-19 11:46:40] [DEBUG] Finished Request
+[2019-06-19 11:46:40] [DEBUG] POST http://127.0.0.1:59835/session/0508c87b28d28ac63507511c093df6b7/element {"using": ["name", "email"], "value": null, "sessionId": "0508c87b28d28ac63507511c093df6b7"}
+[2019-06-19 11:46:40] [DEBUG] http://127.0.0.1:59835 "POST /session/0508c87b28d28ac63507511c093df6b7/element HTTP/1.1" 200 291
+[2019-06-19 11:46:40] [DEBUG] Finished Request
+[2019-06-19 11:47:31] [DEBUG] POST http://127.0.0.1:60029/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-19 11:47:31] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:60029
+[2019-06-19 11:47:33] [DEBUG] http://127.0.0.1:60029 "POST /session HTTP/1.1" 200 833
+[2019-06-19 11:47:33] [DEBUG] Finished Request
+[2019-06-19 11:47:33] [INFO] 1234
+[2019-06-19 11:47:33] [DEBUG] POST http://127.0.0.1:60029/session/09021eebb901ec091076ff5713ac8606/url {"url": "https://www.chinabrands.com/site/login.html?rel=/site/login.html/", "sessionId": "09021eebb901ec091076ff5713ac8606"}
+[2019-06-19 11:47:41] [DEBUG] http://127.0.0.1:60029 "POST /session/09021eebb901ec091076ff5713ac8606/url HTTP/1.1" 200 72
+[2019-06-19 11:47:41] [DEBUG] Finished Request
+[2019-06-19 11:47:41] [DEBUG] POST http://127.0.0.1:60029/session/09021eebb901ec091076ff5713ac8606/element {"using": ["name", "email"], "value": null, "sessionId": "09021eebb901ec091076ff5713ac8606"}
+[2019-06-19 11:47:41] [DEBUG] http://127.0.0.1:60029 "POST /session/09021eebb901ec091076ff5713ac8606/element HTTP/1.1" 200 291
+[2019-06-19 11:47:41] [DEBUG] Finished Request
+[2019-06-19 11:49:37] [DEBUG] POST http://127.0.0.1:60320/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-19 11:49:37] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:60320
+[2019-06-19 11:49:40] [DEBUG] http://127.0.0.1:60320 "POST /session HTTP/1.1" 200 833
+[2019-06-19 11:49:40] [DEBUG] Finished Request
+[2019-06-19 11:49:40] [INFO] 1234
+[2019-06-19 11:49:40] [DEBUG] POST http://127.0.0.1:60320/session/1762d4aaf4a684d81d7efaa4271208b8/url {"url": "https://www.chinabrands.com/site/login.html?rel=/site/login.html/", "sessionId": "1762d4aaf4a684d81d7efaa4271208b8"}
+[2019-06-19 11:49:50] [DEBUG] http://127.0.0.1:60320 "POST /session/1762d4aaf4a684d81d7efaa4271208b8/url HTTP/1.1" 200 72
+[2019-06-19 11:49:50] [DEBUG] Finished Request
+[2019-06-19 11:49:50] [DEBUG] POST http://127.0.0.1:60320/session/1762d4aaf4a684d81d7efaa4271208b8/element {"using": ["name", "email"], "value": null, "sessionId": "1762d4aaf4a684d81d7efaa4271208b8"}
+[2019-06-19 11:49:50] [DEBUG] http://127.0.0.1:60320 "POST /session/1762d4aaf4a684d81d7efaa4271208b8/element HTTP/1.1" 200 291
+[2019-06-19 11:49:50] [DEBUG] Finished Request
+[2019-06-19 11:51:12] [DEBUG] POST http://127.0.0.1:60707/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-19 11:51:12] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:60707
+[2019-06-19 11:51:14] [DEBUG] http://127.0.0.1:60707 "POST /session HTTP/1.1" 200 833
+[2019-06-19 11:51:14] [DEBUG] Finished Request
+[2019-06-19 11:51:14] [INFO] 1234
+[2019-06-19 11:51:14] [DEBUG] POST http://127.0.0.1:60707/session/3f05e00c8fa392e1f5875c202968a4fd/url {"url": "https://www.chinabrands.com/site/login.html?rel=/site/login.html/", "sessionId": "3f05e00c8fa392e1f5875c202968a4fd"}
+[2019-06-19 11:51:26] [DEBUG] http://127.0.0.1:60707 "POST /session/3f05e00c8fa392e1f5875c202968a4fd/url HTTP/1.1" 200 72
+[2019-06-19 11:51:26] [DEBUG] Finished Request
+[2019-06-19 11:51:26] [DEBUG] POST http://127.0.0.1:60707/session/3f05e00c8fa392e1f5875c202968a4fd/element {"using": ["name", "email"], "value": null, "sessionId": "3f05e00c8fa392e1f5875c202968a4fd"}
+[2019-06-19 11:51:26] [DEBUG] http://127.0.0.1:60707 "POST /session/3f05e00c8fa392e1f5875c202968a4fd/element HTTP/1.1" 200 291
+[2019-06-19 11:51:26] [DEBUG] Finished Request
+[2019-06-19 11:53:16] [DEBUG] POST http://127.0.0.1:60994/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-19 11:53:16] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:60994
+[2019-06-19 11:53:18] [DEBUG] http://127.0.0.1:60994 "POST /session HTTP/1.1" 200 832
+[2019-06-19 11:53:18] [DEBUG] Finished Request
+[2019-06-19 11:53:18] [INFO] 1234
+[2019-06-19 11:53:18] [DEBUG] POST http://127.0.0.1:60994/session/62b6ffcf8bba3fbce9160f9aa0439ac2/url {"url": "https://www.chinabrands.com/site/login.html?rel=/site/login.html/", "sessionId": "62b6ffcf8bba3fbce9160f9aa0439ac2"}
+[2019-06-19 11:53:26] [DEBUG] http://127.0.0.1:60994 "POST /session/62b6ffcf8bba3fbce9160f9aa0439ac2/url HTTP/1.1" 200 72
+[2019-06-19 11:53:26] [DEBUG] Finished Request
+[2019-06-19 11:53:26] [DEBUG] POST http://127.0.0.1:60994/session/62b6ffcf8bba3fbce9160f9aa0439ac2/element {"using": ["xpath", "//input[@class='custom-text']"], "value": null, "sessionId": "62b6ffcf8bba3fbce9160f9aa0439ac2"}
+[2019-06-19 11:53:26] [DEBUG] http://127.0.0.1:60994 "POST /session/62b6ffcf8bba3fbce9160f9aa0439ac2/element HTTP/1.1" 200 291
+[2019-06-19 11:53:26] [DEBUG] Finished Request

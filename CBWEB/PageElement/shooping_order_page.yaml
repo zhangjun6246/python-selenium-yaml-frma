@@ -1,0 +1,38 @@
+addCart:
+  dec: 添加到购物车
+  type: xpath
+  value: //a[@class='addToCart add-to-cart']
+shooping:
+  dec: 购物车按钮
+  type: xpath
+  value: //a[@class='top-cart j_cart fl']
+
+checkGoods:
+  dec: 勾选商品
+  type: css
+  value: #j_cartPage > div > table.cart-list-head > tbody > tr > th:nth-child(1) > label > span
+
+getPrice:
+  dec: 获取总价
+  type: xpath
+  value: //span[@class='my_shop_price fb vam cart-subtotal']
+
+proceedCheckout:
+  dec: 点击结算
+  type: id
+  value: js_toCheckout
+
+
+isLogin:
+  dec: 是否登录
+  type: xpath
+  value: //span[@class="fl username"]
+
+getTotalPrice:
+  dec: 获取所有总价，单个显示
+  type: xpath
+  value: //p[@class='clearfix']/span
+totalPrice:
+  dec: 获取所有总价
+  type: xpath
+  value: //span[@class='my_shop_price fb fr red j_total']

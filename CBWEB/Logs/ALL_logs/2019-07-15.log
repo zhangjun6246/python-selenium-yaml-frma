@@ -1,0 +1,1015 @@
+[2019-07-15 15:21:06] [DEBUG] POST http://127.0.0.1:61083/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 15:21:06] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:61083
+[2019-07-15 15:21:14] [DEBUG] http://127.0.0.1:61083 "POST /session HTTP/1.1" 200 832
+[2019-07-15 15:21:14] [DEBUG] Finished Request
+[2019-07-15 15:21:14] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:21:14] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 15:21:14] [DEBUG] Finished Request
+[2019-07-15 15:21:14] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 15:21:14] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:28] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/url HTTP/1.1" 200 72
+[2019-07-15 15:22:28] [DEBUG] Finished Request
+[2019-07-15 15:22:28] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/window/current/maximize {"windowHandle": "current", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:29] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 15:22:29] [DEBUG] Finished Request
+[2019-07-15 15:22:29] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:31] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/url HTTP/1.1" 200 72
+[2019-07-15 15:22:31] [DEBUG] Finished Request
+[2019-07-15 15:22:34] [INFO] 没有问题
+[2019-07-15 15:22:34] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 15:22:34] [INFO] 读取yaml成功
+[2019-07-15 15:22:34] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:34] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/element HTTP/1.1" 200 102
+[2019-07-15 15:22:34] [DEBUG] Finished Request
+[2019-07-15 15:22:34] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 15:22:34] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-1/clear {"id": "0.9398219075095522-1", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:34] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-1/clear HTTP/1.1" 200 72
+[2019-07-15 15:22:34] [DEBUG] Finished Request
+[2019-07-15 15:22:34] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.9398219075095522-1", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:34] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-1/value HTTP/1.1" 200 72
+[2019-07-15 15:22:34] [DEBUG] Finished Request
+[2019-07-15 15:22:34] [INFO] 读取yaml成功
+[2019-07-15 15:22:34] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/element {"using": "xpath", "value": "//input[@class='custom-text password']", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:34] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/element HTTP/1.1" 200 102
+[2019-07-15 15:22:34] [DEBUG] Finished Request
+[2019-07-15 15:22:34] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text password']     
+[2019-07-15 15:22:34] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-2/clear {"id": "0.9398219075095522-2", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:34] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-2/clear HTTP/1.1" 200 72
+[2019-07-15 15:22:34] [DEBUG] Finished Request
+[2019-07-15 15:22:34] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-2/value {"text": "zhangjun1!", "value": ["z", "h", "a", "n", "g", "j", "u", "n", "1", "!"], "id": "0.9398219075095522-2", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:34] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-2/value HTTP/1.1" 200 72
+[2019-07-15 15:22:34] [DEBUG] Finished Request
+[2019-07-15 15:22:34] [INFO] 读取yaml成功
+[2019-07-15 15:22:34] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:34] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/element HTTP/1.1" 200 102
+[2019-07-15 15:22:34] [DEBUG] Finished Request
+[2019-07-15 15:22:34] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 15:22:34] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-3/click {"id": "0.9398219075095522-3", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:35] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/element/0.9398219075095522-3/click HTTP/1.1" 200 72
+[2019-07-15 15:22:35] [DEBUG] Finished Request
+[2019-07-15 15:22:35] [INFO] 读取yaml成功
+[2019-07-15 15:22:35] [DEBUG] POST http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb/elements {"using": "xpath", "value": "//span[@class=\"fl username\"]", "sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:45] [DEBUG] http://127.0.0.1:61083 "POST /session/630f9e0b4209a25a05444b7b538abccb/elements HTTP/1.1" 200 104
+[2019-07-15 15:22:45] [DEBUG] Finished Request
+[2019-07-15 15:22:45] [DEBUG] DELETE http://127.0.0.1:61083/session/630f9e0b4209a25a05444b7b538abccb {"sessionId": "630f9e0b4209a25a05444b7b538abccb"}
+[2019-07-15 15:22:45] [DEBUG] http://127.0.0.1:61083 "DELETE /session/630f9e0b4209a25a05444b7b538abccb HTTP/1.1" 200 72
+[2019-07-15 15:22:45] [DEBUG] Finished Request
+[2019-07-15 17:12:39] [DEBUG] POST http://127.0.0.1:63692/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 17:12:39] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:63692
+[2019-07-15 17:12:41] [DEBUG] http://127.0.0.1:63692 "POST /session HTTP/1.1" 200 832
+[2019-07-15 17:12:41] [DEBUG] Finished Request
+[2019-07-15 17:12:41] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:12:41] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 17:12:41] [DEBUG] Finished Request
+[2019-07-15 17:12:41] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 17:12:41] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:07] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/url HTTP/1.1" 200 72
+[2019-07-15 17:13:07] [DEBUG] Finished Request
+[2019-07-15 17:13:07] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/window/current/maximize {"windowHandle": "current", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:08] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 17:13:08] [DEBUG] Finished Request
+[2019-07-15 17:13:08] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:09] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/url HTTP/1.1" 200 72
+[2019-07-15 17:13:09] [DEBUG] Finished Request
+[2019-07-15 17:13:12] [INFO] 没有问题
+[2019-07-15 17:13:12] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 17:13:12] [INFO] 读取yaml成功
+[2019-07-15 17:13:12] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:12] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/element HTTP/1.1" 200 101
+[2019-07-15 17:13:12] [DEBUG] Finished Request
+[2019-07-15 17:13:12] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 17:13:12] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-1/clear {"id": "0.932722240478594-1", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:13] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-1/clear HTTP/1.1" 200 72
+[2019-07-15 17:13:13] [DEBUG] Finished Request
+[2019-07-15 17:13:13] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.932722240478594-1", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:13] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-1/value HTTP/1.1" 200 72
+[2019-07-15 17:13:13] [DEBUG] Finished Request
+[2019-07-15 17:13:13] [INFO] 读取yaml成功
+[2019-07-15 17:13:13] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/element {"using": "xpath", "value": "//input[@class='custom-text password']", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:13] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/element HTTP/1.1" 200 101
+[2019-07-15 17:13:13] [DEBUG] Finished Request
+[2019-07-15 17:13:13] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text password']     
+[2019-07-15 17:13:13] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-2/clear {"id": "0.932722240478594-2", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:13] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-2/clear HTTP/1.1" 200 72
+[2019-07-15 17:13:13] [DEBUG] Finished Request
+[2019-07-15 17:13:13] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-2/value {"text": "zhangjun1!", "value": ["z", "h", "a", "n", "g", "j", "u", "n", "1", "!"], "id": "0.932722240478594-2", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:13] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-2/value HTTP/1.1" 200 72
+[2019-07-15 17:13:13] [DEBUG] Finished Request
+[2019-07-15 17:13:13] [INFO] 读取yaml成功
+[2019-07-15 17:13:13] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:13] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/element HTTP/1.1" 200 101
+[2019-07-15 17:13:13] [DEBUG] Finished Request
+[2019-07-15 17:13:13] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 17:13:13] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-3/click {"id": "0.932722240478594-3", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:13] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/element/0.932722240478594-3/click HTTP/1.1" 200 72
+[2019-07-15 17:13:13] [DEBUG] Finished Request
+[2019-07-15 17:13:13] [INFO] 读取yaml成功
+[2019-07-15 17:13:13] [DEBUG] POST http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab/elements {"using": "xpath", "value": "//span[@class=\"fl username\"]", "sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:21] [DEBUG] http://127.0.0.1:63692 "POST /session/05cfb47bd584cc713e2e6365f7410aab/elements HTTP/1.1" 200 104
+[2019-07-15 17:13:21] [DEBUG] Finished Request
+[2019-07-15 17:13:22] [DEBUG] DELETE http://127.0.0.1:63692/session/05cfb47bd584cc713e2e6365f7410aab {"sessionId": "05cfb47bd584cc713e2e6365f7410aab"}
+[2019-07-15 17:13:22] [DEBUG] http://127.0.0.1:63692 "DELETE /session/05cfb47bd584cc713e2e6365f7410aab HTTP/1.1" 200 72
+[2019-07-15 17:13:22] [DEBUG] Finished Request
+[2019-07-15 17:18:45] [DEBUG] POST http://127.0.0.1:63910/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 17:18:45] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:63910
+[2019-07-15 17:18:47] [DEBUG] http://127.0.0.1:63910 "POST /session HTTP/1.1" 200 833
+[2019-07-15 17:18:47] [DEBUG] Finished Request
+[2019-07-15 17:18:47] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:18:47] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 17:18:47] [DEBUG] Finished Request
+[2019-07-15 17:18:47] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 17:18:47] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:13] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/url HTTP/1.1" 200 72
+[2019-07-15 17:19:13] [DEBUG] Finished Request
+[2019-07-15 17:19:13] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/window/current/maximize {"windowHandle": "current", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:14] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 17:19:14] [DEBUG] Finished Request
+[2019-07-15 17:19:14] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:15] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/url HTTP/1.1" 200 72
+[2019-07-15 17:19:15] [DEBUG] Finished Request
+[2019-07-15 17:19:18] [INFO] 没有问题
+[2019-07-15 17:19:18] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 17:19:18] [INFO] 读取yaml成功
+[2019-07-15 17:19:18] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:18] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/element HTTP/1.1" 200 102
+[2019-07-15 17:19:18] [DEBUG] Finished Request
+[2019-07-15 17:19:18] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 17:19:18] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-1/clear {"id": "0.6203227735716239-1", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:18] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-1/clear HTTP/1.1" 200 72
+[2019-07-15 17:19:18] [DEBUG] Finished Request
+[2019-07-15 17:19:18] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.6203227735716239-1", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:18] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-1/value HTTP/1.1" 200 72
+[2019-07-15 17:19:18] [DEBUG] Finished Request
+[2019-07-15 17:19:18] [INFO] 读取yaml成功
+[2019-07-15 17:19:18] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/element {"using": "xpath", "value": "//input[@class='custom-text password']", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:18] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/element HTTP/1.1" 200 102
+[2019-07-15 17:19:18] [DEBUG] Finished Request
+[2019-07-15 17:19:18] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text password']     
+[2019-07-15 17:19:18] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-2/clear {"id": "0.6203227735716239-2", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:18] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-2/clear HTTP/1.1" 200 72
+[2019-07-15 17:19:18] [DEBUG] Finished Request
+[2019-07-15 17:19:18] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-2/value {"text": "zhangjun1!", "value": ["z", "h", "a", "n", "g", "j", "u", "n", "1", "!"], "id": "0.6203227735716239-2", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:18] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-2/value HTTP/1.1" 200 72
+[2019-07-15 17:19:18] [DEBUG] Finished Request
+[2019-07-15 17:19:18] [INFO] 读取yaml成功
+[2019-07-15 17:19:18] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:18] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/element HTTP/1.1" 200 102
+[2019-07-15 17:19:18] [DEBUG] Finished Request
+[2019-07-15 17:19:18] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 17:19:18] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-3/click {"id": "0.6203227735716239-3", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:18] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/element/0.6203227735716239-3/click HTTP/1.1" 200 72
+[2019-07-15 17:19:18] [DEBUG] Finished Request
+[2019-07-15 17:19:18] [INFO] 读取yaml成功
+[2019-07-15 17:19:18] [DEBUG] POST http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24/elements {"using": "xpath", "value": "//span[@class=\"fl username\"]", "sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:26] [DEBUG] http://127.0.0.1:63910 "POST /session/287b02f565e854a52322849effdbda24/elements HTTP/1.1" 200 104
+[2019-07-15 17:19:26] [DEBUG] Finished Request
+[2019-07-15 17:19:26] [DEBUG] DELETE http://127.0.0.1:63910/session/287b02f565e854a52322849effdbda24 {"sessionId": "287b02f565e854a52322849effdbda24"}
+[2019-07-15 17:19:26] [DEBUG] http://127.0.0.1:63910 "DELETE /session/287b02f565e854a52322849effdbda24 HTTP/1.1" 200 72
+[2019-07-15 17:19:26] [DEBUG] Finished Request
+[2019-07-15 17:44:19] [DEBUG] POST http://127.0.0.1:64711/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 17:44:19] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:64711
+[2019-07-15 17:44:21] [DEBUG] http://127.0.0.1:64711 "POST /session HTTP/1.1" 200 832
+[2019-07-15 17:44:21] [DEBUG] Finished Request
+[2019-07-15 17:44:21] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:21] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 17:44:21] [DEBUG] Finished Request
+[2019-07-15 17:44:21] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 17:44:21] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:47] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/url HTTP/1.1" 200 72
+[2019-07-15 17:44:47] [DEBUG] Finished Request
+[2019-07-15 17:44:47] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/window/current/maximize {"windowHandle": "current", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:48] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 17:44:48] [DEBUG] Finished Request
+[2019-07-15 17:44:48] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:49] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/url HTTP/1.1" 200 72
+[2019-07-15 17:44:49] [DEBUG] Finished Request
+[2019-07-15 17:44:52] [INFO] 没有问题
+[2019-07-15 17:44:52] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 17:44:52] [INFO] 读取yaml成功
+[2019-07-15 17:44:52] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:52] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/element HTTP/1.1" 200 102
+[2019-07-15 17:44:52] [DEBUG] Finished Request
+[2019-07-15 17:44:52] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 17:44:52] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-1/clear {"id": "0.8366062870743036-1", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:52] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-1/clear HTTP/1.1" 200 72
+[2019-07-15 17:44:52] [DEBUG] Finished Request
+[2019-07-15 17:44:52] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.8366062870743036-1", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:52] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-1/value HTTP/1.1" 200 72
+[2019-07-15 17:44:52] [DEBUG] Finished Request
+[2019-07-15 17:44:52] [INFO] 读取yaml成功
+[2019-07-15 17:44:52] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/element {"using": "xpath", "value": "//input[@class='custom-text password']", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:52] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/element HTTP/1.1" 200 102
+[2019-07-15 17:44:52] [DEBUG] Finished Request
+[2019-07-15 17:44:52] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text password']     
+[2019-07-15 17:44:52] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-2/clear {"id": "0.8366062870743036-2", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:52] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-2/clear HTTP/1.1" 200 72
+[2019-07-15 17:44:52] [DEBUG] Finished Request
+[2019-07-15 17:44:52] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-2/value {"text": "zhangjun1!", "value": ["z", "h", "a", "n", "g", "j", "u", "n", "1", "!"], "id": "0.8366062870743036-2", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:52] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-2/value HTTP/1.1" 200 72
+[2019-07-15 17:44:52] [DEBUG] Finished Request
+[2019-07-15 17:44:52] [INFO] 读取yaml成功
+[2019-07-15 17:44:52] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:52] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/element HTTP/1.1" 200 102
+[2019-07-15 17:44:52] [DEBUG] Finished Request
+[2019-07-15 17:44:52] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 17:44:52] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-3/click {"id": "0.8366062870743036-3", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:44:52] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/element/0.8366062870743036-3/click HTTP/1.1" 200 72
+[2019-07-15 17:44:52] [DEBUG] Finished Request
+[2019-07-15 17:44:52] [INFO] 读取yaml成功
+[2019-07-15 17:44:52] [DEBUG] POST http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c/elements {"using": "xpath", "value": "//span[@class=\"fl username\"]", "sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:45:00] [DEBUG] http://127.0.0.1:64711 "POST /session/aaf544ced904cc6f110282c1cd74d31c/elements HTTP/1.1" 200 104
+[2019-07-15 17:45:00] [DEBUG] Finished Request
+[2019-07-15 17:45:00] [DEBUG] DELETE http://127.0.0.1:64711/session/aaf544ced904cc6f110282c1cd74d31c {"sessionId": "aaf544ced904cc6f110282c1cd74d31c"}
+[2019-07-15 17:45:00] [DEBUG] http://127.0.0.1:64711 "DELETE /session/aaf544ced904cc6f110282c1cd74d31c HTTP/1.1" 200 72
+[2019-07-15 17:45:00] [DEBUG] Finished Request
+[2019-07-15 17:47:09] [DEBUG] POST http://127.0.0.1:64893/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 17:47:09] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:64893
+[2019-07-15 17:47:11] [DEBUG] http://127.0.0.1:64893 "POST /session HTTP/1.1" 200 832
+[2019-07-15 17:47:11] [DEBUG] Finished Request
+[2019-07-15 17:47:11] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:11] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 17:47:11] [DEBUG] Finished Request
+[2019-07-15 17:47:11] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 17:47:11] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:36] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/url HTTP/1.1" 200 72
+[2019-07-15 17:47:36] [DEBUG] Finished Request
+[2019-07-15 17:47:36] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/window/current/maximize {"windowHandle": "current", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:37] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 17:47:37] [DEBUG] Finished Request
+[2019-07-15 17:47:37] [INFO] 有执行问题
+[2019-07-15 17:47:37] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:38] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/url HTTP/1.1" 200 72
+[2019-07-15 17:47:38] [DEBUG] Finished Request
+[2019-07-15 17:47:41] [INFO] 没有问题
+[2019-07-15 17:47:41] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 17:47:41] [INFO] 读取yaml成功
+[2019-07-15 17:47:41] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:41] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/element HTTP/1.1" 200 102
+[2019-07-15 17:47:41] [DEBUG] Finished Request
+[2019-07-15 17:47:41] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 17:47:41] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-1/clear {"id": "0.2738581616772524-1", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:41] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-1/clear HTTP/1.1" 200 72
+[2019-07-15 17:47:41] [DEBUG] Finished Request
+[2019-07-15 17:47:41] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.2738581616772524-1", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:42] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-1/value HTTP/1.1" 200 72
+[2019-07-15 17:47:42] [DEBUG] Finished Request
+[2019-07-15 17:47:42] [INFO] 读取yaml成功
+[2019-07-15 17:47:42] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/element {"using": "xpath", "value": "//input[@class='custom-text password']", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:42] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/element HTTP/1.1" 200 102
+[2019-07-15 17:47:42] [DEBUG] Finished Request
+[2019-07-15 17:47:42] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text password']     
+[2019-07-15 17:47:42] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-2/clear {"id": "0.2738581616772524-2", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:42] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-2/clear HTTP/1.1" 200 72
+[2019-07-15 17:47:42] [DEBUG] Finished Request
+[2019-07-15 17:47:42] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-2/value {"text": "zhangjun1!", "value": ["z", "h", "a", "n", "g", "j", "u", "n", "1", "!"], "id": "0.2738581616772524-2", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:42] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-2/value HTTP/1.1" 200 72
+[2019-07-15 17:47:42] [DEBUG] Finished Request
+[2019-07-15 17:47:42] [INFO] 读取yaml成功
+[2019-07-15 17:47:42] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:42] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/element HTTP/1.1" 200 102
+[2019-07-15 17:47:42] [DEBUG] Finished Request
+[2019-07-15 17:47:42] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 17:47:42] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-3/click {"id": "0.2738581616772524-3", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:42] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/element/0.2738581616772524-3/click HTTP/1.1" 200 72
+[2019-07-15 17:47:42] [DEBUG] Finished Request
+[2019-07-15 17:47:42] [INFO] 读取yaml成功
+[2019-07-15 17:47:42] [DEBUG] POST http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa/elements {"using": "xpath", "value": "//span[@class=\"fl username\"]", "sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:49] [DEBUG] http://127.0.0.1:64893 "POST /session/c144a5eff20a1fe16730e924d1502faa/elements HTTP/1.1" 200 104
+[2019-07-15 17:47:49] [DEBUG] Finished Request
+[2019-07-15 17:47:49] [DEBUG] DELETE http://127.0.0.1:64893/session/c144a5eff20a1fe16730e924d1502faa {"sessionId": "c144a5eff20a1fe16730e924d1502faa"}
+[2019-07-15 17:47:49] [DEBUG] http://127.0.0.1:64893 "DELETE /session/c144a5eff20a1fe16730e924d1502faa HTTP/1.1" 200 72
+[2019-07-15 17:47:49] [DEBUG] Finished Request
+[2019-07-15 17:51:27] [DEBUG] POST http://127.0.0.1:65115/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 17:51:27] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:65115
+[2019-07-15 17:51:29] [DEBUG] http://127.0.0.1:65115 "POST /session HTTP/1.1" 200 831
+[2019-07-15 17:51:29] [DEBUG] Finished Request
+[2019-07-15 17:51:29] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:51:29] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 17:51:29] [DEBUG] Finished Request
+[2019-07-15 17:51:29] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 17:51:29] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:51:54] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/url HTTP/1.1" 200 72
+[2019-07-15 17:51:54] [DEBUG] Finished Request
+[2019-07-15 17:51:54] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/window/current/maximize {"windowHandle": "current", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:51:55] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 17:51:55] [DEBUG] Finished Request
+[2019-07-15 17:51:55] [INFO] 有执行问题
+[2019-07-15 17:51:55] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:51:56] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/url HTTP/1.1" 200 72
+[2019-07-15 17:51:56] [DEBUG] Finished Request
+[2019-07-15 17:51:56] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:51:57] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/url HTTP/1.1" 200 72
+[2019-07-15 17:51:57] [DEBUG] Finished Request
+[2019-07-15 17:52:00] [INFO] 没有问题
+[2019-07-15 17:52:00] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 17:52:00] [INFO] 读取yaml成功
+[2019-07-15 17:52:00] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:00] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/element HTTP/1.1" 200 102
+[2019-07-15 17:52:00] [DEBUG] Finished Request
+[2019-07-15 17:52:00] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 17:52:00] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-1/clear {"id": "0.9468831190760651-1", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:00] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-1/clear HTTP/1.1" 200 72
+[2019-07-15 17:52:00] [DEBUG] Finished Request
+[2019-07-15 17:52:00] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.9468831190760651-1", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:00] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-1/value HTTP/1.1" 200 72
+[2019-07-15 17:52:00] [DEBUG] Finished Request
+[2019-07-15 17:52:00] [INFO] 读取yaml成功
+[2019-07-15 17:52:00] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/element {"using": "xpath", "value": "//input[@class='custom-text password']", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:00] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/element HTTP/1.1" 200 102
+[2019-07-15 17:52:00] [DEBUG] Finished Request
+[2019-07-15 17:52:00] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text password']     
+[2019-07-15 17:52:00] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-2/clear {"id": "0.9468831190760651-2", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:00] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-2/clear HTTP/1.1" 200 72
+[2019-07-15 17:52:00] [DEBUG] Finished Request
+[2019-07-15 17:52:00] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-2/value {"text": "zhangjun1!", "value": ["z", "h", "a", "n", "g", "j", "u", "n", "1", "!"], "id": "0.9468831190760651-2", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:00] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-2/value HTTP/1.1" 200 72
+[2019-07-15 17:52:00] [DEBUG] Finished Request
+[2019-07-15 17:52:00] [INFO] 读取yaml成功
+[2019-07-15 17:52:00] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:01] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/element HTTP/1.1" 200 102
+[2019-07-15 17:52:01] [DEBUG] Finished Request
+[2019-07-15 17:52:01] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 17:52:01] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-3/click {"id": "0.9468831190760651-3", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:01] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/element/0.9468831190760651-3/click HTTP/1.1" 200 72
+[2019-07-15 17:52:01] [DEBUG] Finished Request
+[2019-07-15 17:52:01] [INFO] 读取yaml成功
+[2019-07-15 17:52:01] [DEBUG] POST http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3/elements {"using": "xpath", "value": "//span[@class=\"fl username\"]", "sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:08] [DEBUG] http://127.0.0.1:65115 "POST /session/517506af9de1cd5f84cf4c7284cb8da3/elements HTTP/1.1" 200 105
+[2019-07-15 17:52:08] [DEBUG] Finished Request
+[2019-07-15 17:52:08] [DEBUG] DELETE http://127.0.0.1:65115/session/517506af9de1cd5f84cf4c7284cb8da3 {"sessionId": "517506af9de1cd5f84cf4c7284cb8da3"}
+[2019-07-15 17:52:08] [DEBUG] http://127.0.0.1:65115 "DELETE /session/517506af9de1cd5f84cf4c7284cb8da3 HTTP/1.1" 200 72
+[2019-07-15 17:52:08] [DEBUG] Finished Request
+[2019-07-15 17:53:45] [DEBUG] POST http://127.0.0.1:65289/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 17:53:45] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:65289
+[2019-07-15 17:53:47] [DEBUG] http://127.0.0.1:65289 "POST /session HTTP/1.1" 200 832
+[2019-07-15 17:53:47] [DEBUG] Finished Request
+[2019-07-15 17:53:47] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:53:47] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 17:53:47] [DEBUG] Finished Request
+[2019-07-15 17:53:47] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 17:53:47] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:12] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/url HTTP/1.1" 200 72
+[2019-07-15 17:54:12] [DEBUG] Finished Request
+[2019-07-15 17:54:12] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/window/current/maximize {"windowHandle": "current", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:14] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 17:54:14] [DEBUG] Finished Request
+[2019-07-15 17:54:14] [INFO] 有执行问题
+[2019-07-15 17:54:14] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:22] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/url HTTP/1.1" 200 72
+[2019-07-15 17:54:22] [DEBUG] Finished Request
+[2019-07-15 17:54:22] [INFO] 读取yaml成功
+[2019-07-15 17:54:22] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:22] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element HTTP/1.1" 200 102
+[2019-07-15 17:54:22] [DEBUG] Finished Request
+[2019-07-15 17:54:22] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 17:54:22] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element/0.4025942160921452-1/click {"id": "0.4025942160921452-1", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:22] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element/0.4025942160921452-1/click HTTP/1.1" 200 576
+[2019-07-15 17:54:22] [DEBUG] Finished Request
+[2019-07-15 17:54:22] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:24] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/url HTTP/1.1" 200 72
+[2019-07-15 17:54:24] [DEBUG] Finished Request
+[2019-07-15 17:54:27] [INFO] 没有问题
+[2019-07-15 17:54:27] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 17:54:27] [INFO] 读取yaml成功
+[2019-07-15 17:54:27] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:27] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element HTTP/1.1" 200 102
+[2019-07-15 17:54:27] [DEBUG] Finished Request
+[2019-07-15 17:54:27] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 17:54:27] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-1/clear {"id": "0.7923952145922453-1", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:27] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-1/clear HTTP/1.1" 200 72
+[2019-07-15 17:54:27] [DEBUG] Finished Request
+[2019-07-15 17:54:27] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.7923952145922453-1", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:27] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-1/value HTTP/1.1" 200 72
+[2019-07-15 17:54:27] [DEBUG] Finished Request
+[2019-07-15 17:54:27] [INFO] 读取yaml成功
+[2019-07-15 17:54:27] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element {"using": "xpath", "value": "//input[@class='custom-text password']", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:27] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element HTTP/1.1" 200 102
+[2019-07-15 17:54:27] [DEBUG] Finished Request
+[2019-07-15 17:54:27] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text password']     
+[2019-07-15 17:54:27] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-2/clear {"id": "0.7923952145922453-2", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:27] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-2/clear HTTP/1.1" 200 72
+[2019-07-15 17:54:27] [DEBUG] Finished Request
+[2019-07-15 17:54:27] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-2/value {"text": "zhangjun1!", "value": ["z", "h", "a", "n", "g", "j", "u", "n", "1", "!"], "id": "0.7923952145922453-2", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:27] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-2/value HTTP/1.1" 200 72
+[2019-07-15 17:54:27] [DEBUG] Finished Request
+[2019-07-15 17:54:27] [INFO] 读取yaml成功
+[2019-07-15 17:54:27] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:27] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element HTTP/1.1" 200 102
+[2019-07-15 17:54:27] [DEBUG] Finished Request
+[2019-07-15 17:54:27] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 17:54:27] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-3/click {"id": "0.7923952145922453-3", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:27] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/element/0.7923952145922453-3/click HTTP/1.1" 200 72
+[2019-07-15 17:54:27] [DEBUG] Finished Request
+[2019-07-15 17:54:27] [INFO] 读取yaml成功
+[2019-07-15 17:54:27] [DEBUG] POST http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04/elements {"using": "xpath", "value": "//span[@class=\"fl username\"]", "sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:34] [DEBUG] http://127.0.0.1:65289 "POST /session/81de8566f95167b6048413b4572d5b04/elements HTTP/1.1" 200 105
+[2019-07-15 17:54:34] [DEBUG] Finished Request
+[2019-07-15 17:54:34] [DEBUG] DELETE http://127.0.0.1:65289/session/81de8566f95167b6048413b4572d5b04 {"sessionId": "81de8566f95167b6048413b4572d5b04"}
+[2019-07-15 17:54:34] [DEBUG] http://127.0.0.1:65289 "DELETE /session/81de8566f95167b6048413b4572d5b04 HTTP/1.1" 200 72
+[2019-07-15 17:54:34] [DEBUG] Finished Request
+[2019-07-15 18:42:30] [DEBUG] POST http://127.0.0.1:50450/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 18:42:30] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:50450
+[2019-07-15 18:42:55] [DEBUG] http://127.0.0.1:50450 "POST /session HTTP/1.1" 200 832
+[2019-07-15 18:42:55] [DEBUG] Finished Request
+[2019-07-15 18:42:55] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:42:55] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 18:42:55] [DEBUG] Finished Request
+[2019-07-15 18:42:55] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 18:42:55] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:22] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/url HTTP/1.1" 200 72
+[2019-07-15 18:43:22] [DEBUG] Finished Request
+[2019-07-15 18:43:22] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/window/current/maximize {"windowHandle": "current", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:24] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 18:43:24] [DEBUG] Finished Request
+[2019-07-15 18:43:24] [INFO] 有执行问题
+[2019-07-15 18:43:24] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:28] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/url HTTP/1.1" 200 72
+[2019-07-15 18:43:28] [DEBUG] Finished Request
+[2019-07-15 18:43:29] [INFO] 读取yaml成功
+[2019-07-15 18:43:29] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:29] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element HTTP/1.1" 200 103
+[2019-07-15 18:43:29] [DEBUG] Finished Request
+[2019-07-15 18:43:29] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 18:43:29] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element/0.17325132078243244-1/click {"id": "0.17325132078243244-1", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:29] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element/0.17325132078243244-1/click HTTP/1.1" 200 72
+[2019-07-15 18:43:29] [DEBUG] Finished Request
+[2019-07-15 18:43:29] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:31] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/url HTTP/1.1" 200 72
+[2019-07-15 18:43:31] [DEBUG] Finished Request
+[2019-07-15 18:43:34] [INFO] 没有问题
+[2019-07-15 18:43:34] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 18:43:34] [INFO] 读取yaml成功
+[2019-07-15 18:43:34] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:34] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element HTTP/1.1" 200 102
+[2019-07-15 18:43:34] [DEBUG] Finished Request
+[2019-07-15 18:43:34] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 18:43:34] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-1/clear {"id": "0.9356803762177635-1", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:34] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-1/clear HTTP/1.1" 200 72
+[2019-07-15 18:43:34] [DEBUG] Finished Request
+[2019-07-15 18:43:34] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.9356803762177635-1", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:34] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-1/value HTTP/1.1" 200 72
+[2019-07-15 18:43:34] [DEBUG] Finished Request
+[2019-07-15 18:43:34] [INFO] 读取yaml成功
+[2019-07-15 18:43:34] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element {"using": "xpath", "value": "//input[@class='custom-text password']", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:34] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element HTTP/1.1" 200 102
+[2019-07-15 18:43:34] [DEBUG] Finished Request
+[2019-07-15 18:43:34] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text password']     
+[2019-07-15 18:43:34] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-2/clear {"id": "0.9356803762177635-2", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:34] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-2/clear HTTP/1.1" 200 72
+[2019-07-15 18:43:34] [DEBUG] Finished Request
+[2019-07-15 18:43:34] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-2/value {"text": "zhangjun1!", "value": ["z", "h", "a", "n", "g", "j", "u", "n", "1", "!"], "id": "0.9356803762177635-2", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:34] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-2/value HTTP/1.1" 200 72
+[2019-07-15 18:43:34] [DEBUG] Finished Request
+[2019-07-15 18:43:34] [INFO] 读取yaml成功
+[2019-07-15 18:43:34] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:34] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element HTTP/1.1" 200 102
+[2019-07-15 18:43:34] [DEBUG] Finished Request
+[2019-07-15 18:43:34] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 18:43:34] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-3/click {"id": "0.9356803762177635-3", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:34] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/element/0.9356803762177635-3/click HTTP/1.1" 200 72
+[2019-07-15 18:43:34] [DEBUG] Finished Request
+[2019-07-15 18:43:34] [INFO] 读取yaml成功
+[2019-07-15 18:43:34] [DEBUG] POST http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e/elements {"using": "xpath", "value": "//span[@class=\"fl username\"]", "sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:43] [DEBUG] http://127.0.0.1:50450 "POST /session/da6e43844057c9a2590b78e12339067e/elements HTTP/1.1" 200 104
+[2019-07-15 18:43:43] [DEBUG] Finished Request
+[2019-07-15 18:43:43] [DEBUG] DELETE http://127.0.0.1:50450/session/da6e43844057c9a2590b78e12339067e {"sessionId": "da6e43844057c9a2590b78e12339067e"}
+[2019-07-15 18:43:43] [DEBUG] http://127.0.0.1:50450 "DELETE /session/da6e43844057c9a2590b78e12339067e HTTP/1.1" 200 72
+[2019-07-15 18:43:43] [DEBUG] Finished Request
+[2019-07-15 18:46:22] [DEBUG] POST http://127.0.0.1:50664/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 18:46:22] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:50664
+[2019-07-15 18:46:25] [DEBUG] http://127.0.0.1:50664 "POST /session HTTP/1.1" 200 833
+[2019-07-15 18:46:25] [DEBUG] Finished Request
+[2019-07-15 18:46:25] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:46:25] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 18:46:25] [DEBUG] Finished Request
+[2019-07-15 18:46:25] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 18:46:25] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:46:50] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/url HTTP/1.1" 200 72
+[2019-07-15 18:46:50] [DEBUG] Finished Request
+[2019-07-15 18:46:50] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/window/current/maximize {"windowHandle": "current", "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:46:51] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 18:46:51] [DEBUG] Finished Request
+[2019-07-15 18:46:51] [INFO] 有执行问题
+[2019-07-15 18:46:51] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:46:56] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/url HTTP/1.1" 200 72
+[2019-07-15 18:46:56] [DEBUG] Finished Request
+[2019-07-15 18:46:56] [INFO] 读取yaml成功
+[2019-07-15 18:46:56] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:46:56] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/element HTTP/1.1" 200 102
+[2019-07-15 18:46:56] [DEBUG] Finished Request
+[2019-07-15 18:46:56] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 18:46:56] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/element/0.4514404754219399-1/click {"id": "0.4514404754219399-1", "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:46:56] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/element/0.4514404754219399-1/click HTTP/1.1" 200 576
+[2019-07-15 18:46:56] [DEBUG] Finished Request
+[2019-07-15 18:46:56] [DEBUG] GET http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/screenshot {"sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:46:56] [DEBUG] http://127.0.0.1:50664 "GET /session/878c612994034757f8d7ee2508091607/screenshot HTTP/1.1" 200 342866
+[2019-07-15 18:46:56] [DEBUG] Finished Request
+[2019-07-15 18:46:56] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:46:58] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/url HTTP/1.1" 200 72
+[2019-07-15 18:46:58] [DEBUG] Finished Request
+[2019-07-15 18:47:01] [INFO] 没有问题
+[2019-07-15 18:47:01] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 18:47:01] [INFO] 读取yaml成功
+[2019-07-15 18:47:01] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:47:01] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/element HTTP/1.1" 200 102
+[2019-07-15 18:47:01] [DEBUG] Finished Request
+[2019-07-15 18:47:01] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 18:47:01] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/element/0.9423261224642254-1/clear {"id": "0.9423261224642254-1", "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:47:01] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/element/0.9423261224642254-1/clear HTTP/1.1" 200 72
+[2019-07-15 18:47:01] [DEBUG] Finished Request
+[2019-07-15 18:47:01] [DEBUG] POST http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607/element/0.9423261224642254-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.9423261224642254-1", "sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:47:01] [DEBUG] http://127.0.0.1:50664 "POST /session/878c612994034757f8d7ee2508091607/element/0.9423261224642254-1/value HTTP/1.1" 200 72
+[2019-07-15 18:47:01] [DEBUG] Finished Request
+[2019-07-15 18:47:01] [DEBUG] DELETE http://127.0.0.1:50664/session/878c612994034757f8d7ee2508091607 {"sessionId": "878c612994034757f8d7ee2508091607"}
+[2019-07-15 18:47:01] [DEBUG] http://127.0.0.1:50664 "DELETE /session/878c612994034757f8d7ee2508091607 HTTP/1.1" 200 72
+[2019-07-15 18:47:01] [DEBUG] Finished Request
+[2019-07-15 18:50:48] [DEBUG] POST http://127.0.0.1:50878/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 18:50:48] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:50878
+[2019-07-15 18:50:50] [DEBUG] http://127.0.0.1:50878 "POST /session HTTP/1.1" 200 832
+[2019-07-15 18:50:50] [DEBUG] Finished Request
+[2019-07-15 18:50:50] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:50:50] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 18:50:50] [DEBUG] Finished Request
+[2019-07-15 18:50:50] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 18:50:50] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:15] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/url HTTP/1.1" 200 72
+[2019-07-15 18:51:15] [DEBUG] Finished Request
+[2019-07-15 18:51:15] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/window/current/maximize {"windowHandle": "current", "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:16] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 18:51:16] [DEBUG] Finished Request
+[2019-07-15 18:51:16] [INFO] 有执行问题
+[2019-07-15 18:51:16] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:20] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/url HTTP/1.1" 200 72
+[2019-07-15 18:51:20] [DEBUG] Finished Request
+[2019-07-15 18:51:20] [INFO] 读取yaml成功
+[2019-07-15 18:51:20] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:21] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/element HTTP/1.1" 200 103
+[2019-07-15 18:51:21] [DEBUG] Finished Request
+[2019-07-15 18:51:21] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 18:51:21] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/element/0.11211409447844312-1/click {"id": "0.11211409447844312-1", "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:21] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/element/0.11211409447844312-1/click HTTP/1.1" 200 576
+[2019-07-15 18:51:21] [DEBUG] Finished Request
+[2019-07-15 18:51:21] [DEBUG] GET http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/screenshot {"sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:21] [DEBUG] http://127.0.0.1:50878 "GET /session/4ac389c8f597e76a1e3e630d50de15c7/screenshot HTTP/1.1" 200 342946
+[2019-07-15 18:51:21] [DEBUG] Finished Request
+[2019-07-15 18:51:21] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:23] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/url HTTP/1.1" 200 72
+[2019-07-15 18:51:23] [DEBUG] Finished Request
+[2019-07-15 18:51:26] [INFO] 没有问题
+[2019-07-15 18:51:26] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 18:51:26] [INFO] 读取yaml成功
+[2019-07-15 18:51:26] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:26] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/element HTTP/1.1" 200 102
+[2019-07-15 18:51:26] [DEBUG] Finished Request
+[2019-07-15 18:51:26] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 18:51:26] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/element/0.7470164198137401-1/clear {"id": "0.7470164198137401-1", "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:27] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/element/0.7470164198137401-1/clear HTTP/1.1" 200 72
+[2019-07-15 18:51:27] [DEBUG] Finished Request
+[2019-07-15 18:51:27] [DEBUG] POST http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7/element/0.7470164198137401-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.7470164198137401-1", "sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:27] [DEBUG] http://127.0.0.1:50878 "POST /session/4ac389c8f597e76a1e3e630d50de15c7/element/0.7470164198137401-1/value HTTP/1.1" 200 72
+[2019-07-15 18:51:27] [DEBUG] Finished Request
+[2019-07-15 18:51:27] [DEBUG] DELETE http://127.0.0.1:50878/session/4ac389c8f597e76a1e3e630d50de15c7 {"sessionId": "4ac389c8f597e76a1e3e630d50de15c7"}
+[2019-07-15 18:51:27] [DEBUG] http://127.0.0.1:50878 "DELETE /session/4ac389c8f597e76a1e3e630d50de15c7 HTTP/1.1" 200 72
+[2019-07-15 18:51:27] [DEBUG] Finished Request
+[2019-07-15 18:53:04] [DEBUG] POST http://127.0.0.1:51012/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 18:53:04] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:51012
+[2019-07-15 18:53:07] [DEBUG] http://127.0.0.1:51012 "POST /session HTTP/1.1" 200 833
+[2019-07-15 18:53:07] [DEBUG] Finished Request
+[2019-07-15 18:53:07] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:07] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 18:53:07] [DEBUG] Finished Request
+[2019-07-15 18:53:07] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 18:53:07] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:31] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/url HTTP/1.1" 200 72
+[2019-07-15 18:53:31] [DEBUG] Finished Request
+[2019-07-15 18:53:31] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/window/current/maximize {"windowHandle": "current", "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:33] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 18:53:33] [DEBUG] Finished Request
+[2019-07-15 18:53:33] [INFO] 有执行问题
+[2019-07-15 18:53:33] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:37] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/url HTTP/1.1" 200 72
+[2019-07-15 18:53:37] [DEBUG] Finished Request
+[2019-07-15 18:53:37] [INFO] 读取yaml成功
+[2019-07-15 18:53:37] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:37] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/element HTTP/1.1" 200 102
+[2019-07-15 18:53:37] [DEBUG] Finished Request
+[2019-07-15 18:53:37] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 18:53:37] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/element/0.6946246019338838-1/click {"id": "0.6946246019338838-1", "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:37] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/element/0.6946246019338838-1/click HTTP/1.1" 200 576
+[2019-07-15 18:53:37] [DEBUG] Finished Request
+[2019-07-15 18:53:37] [DEBUG] GET http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/screenshot {"sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:37] [DEBUG] http://127.0.0.1:51012 "GET /session/34867e78dd93777ea8e079cc1a7effc6/screenshot HTTP/1.1" 200 342894
+[2019-07-15 18:53:37] [DEBUG] Finished Request
+[2019-07-15 18:53:37] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:39] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/url HTTP/1.1" 200 72
+[2019-07-15 18:53:39] [DEBUG] Finished Request
+[2019-07-15 18:53:42] [INFO] 没有问题
+[2019-07-15 18:53:42] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 18:53:42] [INFO] 读取yaml成功
+[2019-07-15 18:53:42] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:42] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/element HTTP/1.1" 200 103
+[2019-07-15 18:53:42] [DEBUG] Finished Request
+[2019-07-15 18:53:42] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 18:53:42] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/element/0.45487132647239203-1/clear {"id": "0.45487132647239203-1", "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:42] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/element/0.45487132647239203-1/clear HTTP/1.1" 200 72
+[2019-07-15 18:53:42] [DEBUG] Finished Request
+[2019-07-15 18:53:42] [DEBUG] POST http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6/element/0.45487132647239203-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.45487132647239203-1", "sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:42] [DEBUG] http://127.0.0.1:51012 "POST /session/34867e78dd93777ea8e079cc1a7effc6/element/0.45487132647239203-1/value HTTP/1.1" 200 72
+[2019-07-15 18:53:42] [DEBUG] Finished Request
+[2019-07-15 18:53:42] [DEBUG] DELETE http://127.0.0.1:51012/session/34867e78dd93777ea8e079cc1a7effc6 {"sessionId": "34867e78dd93777ea8e079cc1a7effc6"}
+[2019-07-15 18:53:42] [DEBUG] http://127.0.0.1:51012 "DELETE /session/34867e78dd93777ea8e079cc1a7effc6 HTTP/1.1" 200 72
+[2019-07-15 18:53:42] [DEBUG] Finished Request
+[2019-07-15 18:59:54] [DEBUG] POST http://127.0.0.1:51375/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 18:59:54] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:51375
+[2019-07-15 18:59:56] [DEBUG] http://127.0.0.1:51375 "POST /session HTTP/1.1" 200 833
+[2019-07-15 18:59:56] [DEBUG] Finished Request
+[2019-07-15 18:59:56] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 18:59:56] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 18:59:56] [DEBUG] Finished Request
+[2019-07-15 18:59:56] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 18:59:56] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:22] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/url HTTP/1.1" 200 72
+[2019-07-15 19:00:22] [DEBUG] Finished Request
+[2019-07-15 19:00:22] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/window/current/maximize {"windowHandle": "current", "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:23] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 19:00:23] [DEBUG] Finished Request
+[2019-07-15 19:00:23] [INFO] 有执行问题
+[2019-07-15 19:00:23] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:29] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/url HTTP/1.1" 200 72
+[2019-07-15 19:00:29] [DEBUG] Finished Request
+[2019-07-15 19:00:29] [INFO] 读取yaml成功
+[2019-07-15 19:00:29] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:29] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/element HTTP/1.1" 200 104
+[2019-07-15 19:00:29] [DEBUG] Finished Request
+[2019-07-15 19:00:29] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 19:00:29] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/element/0.036322819939043516-1/click {"id": "0.036322819939043516-1", "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:29] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/element/0.036322819939043516-1/click HTTP/1.1" 200 576
+[2019-07-15 19:00:29] [DEBUG] Finished Request
+[2019-07-15 19:00:29] [DEBUG] GET http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/screenshot {"sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:30] [DEBUG] http://127.0.0.1:51375 "GET /session/cdf2b3af8f30f04eb7c5966570811b9b/screenshot HTTP/1.1" 200 342866
+[2019-07-15 19:00:30] [DEBUG] Finished Request
+[2019-07-15 19:00:30] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:31] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/url HTTP/1.1" 200 72
+[2019-07-15 19:00:31] [DEBUG] Finished Request
+[2019-07-15 19:00:34] [INFO] 没有问题
+[2019-07-15 19:00:34] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 19:00:34] [INFO] 读取yaml成功
+[2019-07-15 19:00:34] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:34] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/element HTTP/1.1" 200 102
+[2019-07-15 19:00:34] [DEBUG] Finished Request
+[2019-07-15 19:00:34] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 19:00:34] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/element/0.6906804944441165-1/clear {"id": "0.6906804944441165-1", "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:34] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/element/0.6906804944441165-1/clear HTTP/1.1" 200 72
+[2019-07-15 19:00:34] [DEBUG] Finished Request
+[2019-07-15 19:00:34] [DEBUG] POST http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b/element/0.6906804944441165-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.6906804944441165-1", "sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:34] [DEBUG] http://127.0.0.1:51375 "POST /session/cdf2b3af8f30f04eb7c5966570811b9b/element/0.6906804944441165-1/value HTTP/1.1" 200 72
+[2019-07-15 19:00:34] [DEBUG] Finished Request
+[2019-07-15 19:00:34] [DEBUG] DELETE http://127.0.0.1:51375/session/cdf2b3af8f30f04eb7c5966570811b9b {"sessionId": "cdf2b3af8f30f04eb7c5966570811b9b"}
+[2019-07-15 19:00:35] [DEBUG] http://127.0.0.1:51375 "DELETE /session/cdf2b3af8f30f04eb7c5966570811b9b HTTP/1.1" 200 72
+[2019-07-15 19:00:35] [DEBUG] Finished Request
+[2019-07-15 19:36:14] [DEBUG] POST http://127.0.0.1:52445/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 19:36:14] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:52445
+[2019-07-15 19:36:16] [DEBUG] http://127.0.0.1:52445 "POST /session HTTP/1.1" 200 832
+[2019-07-15 19:36:16] [DEBUG] Finished Request
+[2019-07-15 19:36:16] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:16] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 19:36:16] [DEBUG] Finished Request
+[2019-07-15 19:36:16] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 19:36:16] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:41] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/url HTTP/1.1" 200 72
+[2019-07-15 19:36:41] [DEBUG] Finished Request
+[2019-07-15 19:36:41] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/window/current/maximize {"windowHandle": "current", "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:42] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 19:36:42] [DEBUG] Finished Request
+[2019-07-15 19:36:42] [INFO] 有执行问题
+[2019-07-15 19:36:42] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:46] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/url HTTP/1.1" 200 72
+[2019-07-15 19:36:46] [DEBUG] Finished Request
+[2019-07-15 19:36:47] [INFO] 读取yaml成功
+[2019-07-15 19:36:47] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:47] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/element HTTP/1.1" 200 102
+[2019-07-15 19:36:47] [DEBUG] Finished Request
+[2019-07-15 19:36:47] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 19:36:47] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/element/0.8741562147097419-1/click {"id": "0.8741562147097419-1", "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:47] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/element/0.8741562147097419-1/click HTTP/1.1" 200 575
+[2019-07-15 19:36:47] [DEBUG] Finished Request
+[2019-07-15 19:36:47] [DEBUG] GET http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/screenshot {"sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:47] [DEBUG] http://127.0.0.1:52445 "GET /session/d6adeb6019218a1d993a4274e3c54eba/screenshot HTTP/1.1" 200 251682
+[2019-07-15 19:36:47] [DEBUG] Finished Request
+[2019-07-15 19:36:47] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:48] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/url HTTP/1.1" 200 72
+[2019-07-15 19:36:48] [DEBUG] Finished Request
+[2019-07-15 19:36:51] [INFO] 没有问题
+[2019-07-15 19:36:51] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 19:36:51] [INFO] 读取yaml成功
+[2019-07-15 19:36:51] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:51] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/element HTTP/1.1" 200 102
+[2019-07-15 19:36:51] [DEBUG] Finished Request
+[2019-07-15 19:36:51] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 19:36:51] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/element/0.8881684595419177-1/clear {"id": "0.8881684595419177-1", "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:51] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/element/0.8881684595419177-1/clear HTTP/1.1" 200 72
+[2019-07-15 19:36:51] [DEBUG] Finished Request
+[2019-07-15 19:36:51] [DEBUG] POST http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba/element/0.8881684595419177-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.8881684595419177-1", "sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:51] [DEBUG] http://127.0.0.1:52445 "POST /session/d6adeb6019218a1d993a4274e3c54eba/element/0.8881684595419177-1/value HTTP/1.1" 200 72
+[2019-07-15 19:36:51] [DEBUG] Finished Request
+[2019-07-15 19:36:51] [DEBUG] DELETE http://127.0.0.1:52445/session/d6adeb6019218a1d993a4274e3c54eba {"sessionId": "d6adeb6019218a1d993a4274e3c54eba"}
+[2019-07-15 19:36:51] [DEBUG] http://127.0.0.1:52445 "DELETE /session/d6adeb6019218a1d993a4274e3c54eba HTTP/1.1" 200 72
+[2019-07-15 19:36:51] [DEBUG] Finished Request
+[2019-07-15 19:40:01] [DEBUG] POST http://127.0.0.1:52703/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 19:40:01] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:52703
+[2019-07-15 19:40:03] [DEBUG] http://127.0.0.1:52703 "POST /session HTTP/1.1" 200 833
+[2019-07-15 19:40:03] [DEBUG] Finished Request
+[2019-07-15 19:40:03] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:03] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 19:40:03] [DEBUG] Finished Request
+[2019-07-15 19:40:03] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 19:40:03] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:29] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/url HTTP/1.1" 200 72
+[2019-07-15 19:40:29] [DEBUG] Finished Request
+[2019-07-15 19:40:29] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/window/current/maximize {"windowHandle": "current", "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:30] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 19:40:30] [DEBUG] Finished Request
+[2019-07-15 19:40:30] [INFO] 有执行问题
+[2019-07-15 19:40:30] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:48] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/url HTTP/1.1" 200 72
+[2019-07-15 19:40:48] [DEBUG] Finished Request
+[2019-07-15 19:40:48] [INFO] 读取yaml成功
+[2019-07-15 19:40:49] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:49] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/element HTTP/1.1" 200 103
+[2019-07-15 19:40:49] [DEBUG] Finished Request
+[2019-07-15 19:40:49] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 19:40:49] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/element/0.04571696251355983-1/click {"id": "0.04571696251355983-1", "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:49] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/element/0.04571696251355983-1/click HTTP/1.1" 200 72
+[2019-07-15 19:40:49] [DEBUG] Finished Request
+[2019-07-15 19:40:49] [DEBUG] GET http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/screenshot {"sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:49] [DEBUG] http://127.0.0.1:52703 "GET /session/a62a3a5d084fb0e9323d2f24f2d9af4d/screenshot HTTP/1.1" 200 329298
+[2019-07-15 19:40:49] [DEBUG] Finished Request
+[2019-07-15 19:40:50] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:53] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/url HTTP/1.1" 200 72
+[2019-07-15 19:40:53] [DEBUG] Finished Request
+[2019-07-15 19:40:56] [INFO] 没有问题
+[2019-07-15 19:40:56] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 19:40:56] [INFO] 读取yaml成功
+[2019-07-15 19:40:56] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:56] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/element HTTP/1.1" 200 102
+[2019-07-15 19:40:56] [DEBUG] Finished Request
+[2019-07-15 19:40:56] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 19:40:56] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/element/0.8093523172693013-1/clear {"id": "0.8093523172693013-1", "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:56] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/element/0.8093523172693013-1/clear HTTP/1.1" 200 72
+[2019-07-15 19:40:56] [DEBUG] Finished Request
+[2019-07-15 19:40:56] [DEBUG] POST http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d/element/0.8093523172693013-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.8093523172693013-1", "sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:56] [DEBUG] http://127.0.0.1:52703 "POST /session/a62a3a5d084fb0e9323d2f24f2d9af4d/element/0.8093523172693013-1/value HTTP/1.1" 200 72
+[2019-07-15 19:40:56] [DEBUG] Finished Request
+[2019-07-15 19:40:56] [DEBUG] DELETE http://127.0.0.1:52703/session/a62a3a5d084fb0e9323d2f24f2d9af4d {"sessionId": "a62a3a5d084fb0e9323d2f24f2d9af4d"}
+[2019-07-15 19:40:56] [DEBUG] http://127.0.0.1:52703 "DELETE /session/a62a3a5d084fb0e9323d2f24f2d9af4d HTTP/1.1" 200 72
+[2019-07-15 19:40:56] [DEBUG] Finished Request
+[2019-07-15 19:56:09] [DEBUG] POST http://127.0.0.1:53244/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 19:56:09] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:53244
+[2019-07-15 19:56:12] [DEBUG] http://127.0.0.1:53244 "POST /session HTTP/1.1" 200 833
+[2019-07-15 19:56:12] [DEBUG] Finished Request
+[2019-07-15 19:56:12] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:12] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 19:56:12] [DEBUG] Finished Request
+[2019-07-15 19:56:12] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 19:56:12] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:39] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/url HTTP/1.1" 200 72
+[2019-07-15 19:56:39] [DEBUG] Finished Request
+[2019-07-15 19:56:39] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/window/current/maximize {"windowHandle": "current", "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:40] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 19:56:40] [DEBUG] Finished Request
+[2019-07-15 19:56:40] [INFO] 有执行问题
+[2019-07-15 19:56:40] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:44] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/url HTTP/1.1" 200 72
+[2019-07-15 19:56:44] [DEBUG] Finished Request
+[2019-07-15 19:56:44] [INFO] 读取yaml成功
+[2019-07-15 19:56:44] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:44] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/element HTTP/1.1" 200 101
+[2019-07-15 19:56:44] [DEBUG] Finished Request
+[2019-07-15 19:56:44] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 19:56:44] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/element/0.540260618561696-1/click {"id": "0.540260618561696-1", "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:44] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/element/0.540260618561696-1/click HTTP/1.1" 200 576
+[2019-07-15 19:56:44] [DEBUG] Finished Request
+[2019-07-15 19:56:44] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:46] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/url HTTP/1.1" 200 72
+[2019-07-15 19:56:46] [DEBUG] Finished Request
+[2019-07-15 19:56:49] [INFO] 没有问题
+[2019-07-15 19:56:49] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 19:56:49] [INFO] 读取yaml成功
+[2019-07-15 19:56:49] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:49] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/element HTTP/1.1" 200 101
+[2019-07-15 19:56:49] [DEBUG] Finished Request
+[2019-07-15 19:56:49] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 19:56:49] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/element/0.877706681208152-1/clear {"id": "0.877706681208152-1", "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:49] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/element/0.877706681208152-1/clear HTTP/1.1" 200 72
+[2019-07-15 19:56:49] [DEBUG] Finished Request
+[2019-07-15 19:56:49] [DEBUG] POST http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e/element/0.877706681208152-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.877706681208152-1", "sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:49] [DEBUG] http://127.0.0.1:53244 "POST /session/c8465cef529201b714f4718535614a7e/element/0.877706681208152-1/value HTTP/1.1" 200 72
+[2019-07-15 19:56:49] [DEBUG] Finished Request
+[2019-07-15 19:56:49] [DEBUG] DELETE http://127.0.0.1:53244/session/c8465cef529201b714f4718535614a7e {"sessionId": "c8465cef529201b714f4718535614a7e"}
+[2019-07-15 19:56:49] [DEBUG] http://127.0.0.1:53244 "DELETE /session/c8465cef529201b714f4718535614a7e HTTP/1.1" 200 72
+[2019-07-15 19:56:49] [DEBUG] Finished Request
+[2019-07-15 20:01:14] [DEBUG] POST http://127.0.0.1:53497/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 20:01:14] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:53497
+[2019-07-15 20:01:17] [DEBUG] http://127.0.0.1:53497 "POST /session HTTP/1.1" 200 832
+[2019-07-15 20:01:17] [DEBUG] Finished Request
+[2019-07-15 20:01:17] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:17] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 20:01:17] [DEBUG] Finished Request
+[2019-07-15 20:01:17] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 20:01:17] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:42] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/url HTTP/1.1" 200 72
+[2019-07-15 20:01:42] [DEBUG] Finished Request
+[2019-07-15 20:01:42] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/window/current/maximize {"windowHandle": "current", "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:43] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 20:01:43] [DEBUG] Finished Request
+[2019-07-15 20:01:43] [INFO] 有执行问题
+[2019-07-15 20:01:43] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:50] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/url HTTP/1.1" 200 72
+[2019-07-15 20:01:50] [DEBUG] Finished Request
+[2019-07-15 20:01:50] [INFO] 读取yaml成功
+[2019-07-15 20:01:50] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:50] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/element HTTP/1.1" 200 102
+[2019-07-15 20:01:50] [DEBUG] Finished Request
+[2019-07-15 20:01:50] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 20:01:50] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/element/0.6019910631926668-1/click {"id": "0.6019910631926668-1", "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:50] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/element/0.6019910631926668-1/click HTTP/1.1" 200 576
+[2019-07-15 20:01:50] [DEBUG] Finished Request
+[2019-07-15 20:01:50] [DEBUG] GET http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/screenshot {"sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:51] [DEBUG] http://127.0.0.1:53497 "GET /session/866575b01aa799ae6ef7136a632d9a3a/screenshot HTTP/1.1" 200 342934
+[2019-07-15 20:01:51] [DEBUG] Finished Request
+[2019-07-15 20:01:51] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:52] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/url HTTP/1.1" 200 72
+[2019-07-15 20:01:52] [DEBUG] Finished Request
+[2019-07-15 20:01:55] [INFO] 没有问题
+[2019-07-15 20:01:55] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 20:01:55] [INFO] 读取yaml成功
+[2019-07-15 20:01:55] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:55] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/element HTTP/1.1" 200 101
+[2019-07-15 20:01:55] [DEBUG] Finished Request
+[2019-07-15 20:01:55] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 20:01:55] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/element/0.861498165762137-1/clear {"id": "0.861498165762137-1", "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:55] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/element/0.861498165762137-1/clear HTTP/1.1" 200 72
+[2019-07-15 20:01:55] [DEBUG] Finished Request
+[2019-07-15 20:01:55] [DEBUG] POST http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a/element/0.861498165762137-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.861498165762137-1", "sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:55] [DEBUG] http://127.0.0.1:53497 "POST /session/866575b01aa799ae6ef7136a632d9a3a/element/0.861498165762137-1/value HTTP/1.1" 200 72
+[2019-07-15 20:01:55] [DEBUG] Finished Request
+[2019-07-15 20:01:55] [DEBUG] DELETE http://127.0.0.1:53497/session/866575b01aa799ae6ef7136a632d9a3a {"sessionId": "866575b01aa799ae6ef7136a632d9a3a"}
+[2019-07-15 20:01:55] [DEBUG] http://127.0.0.1:53497 "DELETE /session/866575b01aa799ae6ef7136a632d9a3a HTTP/1.1" 200 72
+[2019-07-15 20:01:55] [DEBUG] Finished Request
+[2019-07-15 20:03:56] [DEBUG] POST http://127.0.0.1:53670/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 20:03:56] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:53670
+[2019-07-15 20:03:58] [DEBUG] http://127.0.0.1:53670 "POST /session HTTP/1.1" 200 832
+[2019-07-15 20:03:58] [DEBUG] Finished Request
+[2019-07-15 20:03:58] [DEBUG] POST http://127.0.0.1:53670/session/0e4393af531b1c0395fc0769e75535b2/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "0e4393af531b1c0395fc0769e75535b2"}
+[2019-07-15 20:03:58] [DEBUG] http://127.0.0.1:53670 "POST /session/0e4393af531b1c0395fc0769e75535b2/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 20:03:58] [DEBUG] Finished Request
+[2019-07-15 20:03:58] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 20:03:58] [DEBUG] POST http://127.0.0.1:53670/session/0e4393af531b1c0395fc0769e75535b2/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "0e4393af531b1c0395fc0769e75535b2"}
+[2019-07-15 20:04:25] [DEBUG] http://127.0.0.1:53670 "POST /session/0e4393af531b1c0395fc0769e75535b2/url HTTP/1.1" 200 72
+[2019-07-15 20:04:25] [DEBUG] Finished Request
+[2019-07-15 20:04:25] [DEBUG] POST http://127.0.0.1:53670/session/0e4393af531b1c0395fc0769e75535b2/window/current/maximize {"windowHandle": "current", "sessionId": "0e4393af531b1c0395fc0769e75535b2"}
+[2019-07-15 20:04:26] [DEBUG] http://127.0.0.1:53670 "POST /session/0e4393af531b1c0395fc0769e75535b2/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 20:04:26] [DEBUG] Finished Request
+[2019-07-15 20:12:50] [DEBUG] POST http://127.0.0.1:53880/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 20:12:50] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:53880
+[2019-07-15 20:12:53] [DEBUG] http://127.0.0.1:53880 "POST /session HTTP/1.1" 200 833
+[2019-07-15 20:12:53] [DEBUG] Finished Request
+[2019-07-15 20:12:53] [DEBUG] POST http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:12:53] [DEBUG] http://127.0.0.1:53880 "POST /session/2e79a543ccade0968ad29d4f18cb1cb6/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 20:12:53] [DEBUG] Finished Request
+[2019-07-15 20:12:53] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 20:12:53] [DEBUG] POST http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:13:19] [DEBUG] http://127.0.0.1:53880 "POST /session/2e79a543ccade0968ad29d4f18cb1cb6/url HTTP/1.1" 200 72
+[2019-07-15 20:13:19] [DEBUG] Finished Request
+[2019-07-15 20:13:19] [DEBUG] POST http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/window/current/maximize {"windowHandle": "current", "sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:13:20] [DEBUG] http://127.0.0.1:53880 "POST /session/2e79a543ccade0968ad29d4f18cb1cb6/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 20:13:20] [DEBUG] Finished Request
+[2019-07-15 20:16:24] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/url {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:24] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/url HTTP/1.1" 200 148
+[2019-07-15 20:16:24] [DEBUG] Finished Request
+[2019-07-15 20:16:24] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/window_handle {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:24] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/window_handle HTTP/1.1" 200 111
+[2019-07-15 20:16:24] [DEBUG] Finished Request
+[2019-07-15 20:16:24] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/log/types {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:24] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/log/types HTTP/1.1" 200 88
+[2019-07-15 20:16:24] [DEBUG] Finished Request
+[2019-07-15 20:16:24] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/orientation {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:24] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/orientation HTTP/1.1" 200 370
+[2019-07-15 20:16:24] [DEBUG] Finished Request
+[2019-07-15 20:16:24] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/source {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:24] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/source HTTP/1.1" 200 28144
+[2019-07-15 20:16:24] [DEBUG] Finished Request
+[2019-07-15 20:16:24] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/title {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:24] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/title HTTP/1.1" 200 91
+[2019-07-15 20:16:24] [DEBUG] Finished Request
+[2019-07-15 20:16:24] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/window_handles {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:24] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/window_handles HTTP/1.1" 200 157
+[2019-07-15 20:16:24] [DEBUG] Finished Request
+[2019-07-15 20:16:28] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/context {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:28] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/context HTTP/1.1" 404 65
+[2019-07-15 20:16:28] [DEBUG] Finished Request
+[2019-07-15 20:16:28] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/contexts {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:28] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/contexts HTTP/1.1" 404 66
+[2019-07-15 20:16:28] [DEBUG] Finished Request
+[2019-07-15 20:16:28] [DEBUG] GET http://127.0.0.1:53880/session/2e79a543ccade0968ad29d4f18cb1cb6/network_connection {"sessionId": "2e79a543ccade0968ad29d4f18cb1cb6"}
+[2019-07-15 20:16:28] [DEBUG] http://127.0.0.1:53880 "GET /session/2e79a543ccade0968ad29d4f18cb1cb6/network_connection HTTP/1.1" 200 298
+[2019-07-15 20:16:28] [DEBUG] Finished Request
+[2019-07-15 20:23:00] [DEBUG] POST http://127.0.0.1:54220/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 20:23:00] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:54220
+[2019-07-15 20:23:02] [DEBUG] http://127.0.0.1:54220 "POST /session HTTP/1.1" 200 833
+[2019-07-15 20:23:02] [DEBUG] Finished Request
+[2019-07-15 20:23:02] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:02] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 20:23:02] [DEBUG] Finished Request
+[2019-07-15 20:23:02] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 20:23:02] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:32] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/url HTTP/1.1" 200 72
+[2019-07-15 20:23:32] [DEBUG] Finished Request
+[2019-07-15 20:23:32] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/window/current/maximize {"windowHandle": "current", "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:33] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 20:23:33] [DEBUG] Finished Request
+[2019-07-15 20:23:33] [INFO] 有执行问题
+[2019-07-15 20:23:33] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:37] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/url HTTP/1.1" 200 72
+[2019-07-15 20:23:37] [DEBUG] Finished Request
+[2019-07-15 20:23:37] [INFO] 读取yaml成功
+[2019-07-15 20:23:37] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:37] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/element HTTP/1.1" 200 103
+[2019-07-15 20:23:37] [DEBUG] Finished Request
+[2019-07-15 20:23:37] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 20:23:37] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/element/0.04286169249361094-1/click {"id": "0.04286169249361094-1", "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:37] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/element/0.04286169249361094-1/click HTTP/1.1" 200 576
+[2019-07-15 20:23:37] [DEBUG] Finished Request
+[2019-07-15 20:23:37] [DEBUG] GET http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/screenshot {"sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:38] [DEBUG] http://127.0.0.1:54220 "GET /session/3a82b6bd047cfcf179acf2b82e927673/screenshot HTTP/1.1" 200 342902
+[2019-07-15 20:23:38] [DEBUG] Finished Request
+[2019-07-15 20:23:38] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:39] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/url HTTP/1.1" 200 72
+[2019-07-15 20:23:39] [DEBUG] Finished Request
+[2019-07-15 20:23:42] [INFO] 没有问题
+[2019-07-15 20:23:42] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 20:23:42] [INFO] 读取yaml成功
+[2019-07-15 20:23:42] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:42] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/element HTTP/1.1" 200 103
+[2019-07-15 20:23:42] [DEBUG] Finished Request
+[2019-07-15 20:23:42] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 20:23:42] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/element/0.13960657249415087-1/clear {"id": "0.13960657249415087-1", "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:42] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/element/0.13960657249415087-1/clear HTTP/1.1" 200 72
+[2019-07-15 20:23:42] [DEBUG] Finished Request
+[2019-07-15 20:23:42] [DEBUG] POST http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673/element/0.13960657249415087-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.13960657249415087-1", "sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:42] [DEBUG] http://127.0.0.1:54220 "POST /session/3a82b6bd047cfcf179acf2b82e927673/element/0.13960657249415087-1/value HTTP/1.1" 200 72
+[2019-07-15 20:23:42] [DEBUG] Finished Request
+[2019-07-15 20:23:42] [DEBUG] DELETE http://127.0.0.1:54220/session/3a82b6bd047cfcf179acf2b82e927673 {"sessionId": "3a82b6bd047cfcf179acf2b82e927673"}
+[2019-07-15 20:23:42] [DEBUG] http://127.0.0.1:54220 "DELETE /session/3a82b6bd047cfcf179acf2b82e927673 HTTP/1.1" 200 72
+[2019-07-15 20:23:42] [DEBUG] Finished Request
+[2019-07-15 20:29:58] [DEBUG] POST http://127.0.0.1:54450/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-07-15 20:29:58] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:54450
+[2019-07-15 20:30:00] [DEBUG] http://127.0.0.1:54450 "POST /session HTTP/1.1" 200 833
+[2019-07-15 20:30:00] [DEBUG] Finished Request
+[2019-07-15 20:30:00] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/timeouts/implicit_wait {"ms": 30000.0, "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:00] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/timeouts/implicit_wait HTTP/1.1" 200 72
+[2019-07-15 20:30:00] [DEBUG] Finished Request
+[2019-07-15 20:30:00] [INFO] https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/
+[2019-07-15 20:30:00] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:25] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/url HTTP/1.1" 200 72
+[2019-07-15 20:30:25] [DEBUG] Finished Request
+[2019-07-15 20:30:25] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/window/current/maximize {"windowHandle": "current", "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:26] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/window/current/maximize HTTP/1.1" 200 72
+[2019-07-15 20:30:26] [DEBUG] Finished Request
+[2019-07-15 20:30:26] [INFO] F:\googleDownloads\CBWEB\case\img
+[2019-07-15 20:30:26] [INFO] 有执行问题
+[2019-07-15 20:30:26] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1", "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:31] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/url HTTP/1.1" 200 72
+[2019-07-15 20:30:31] [DEBUG] Finished Request
+[2019-07-15 20:30:31] [INFO] 读取yaml成功
+[2019-07-15 20:30:31] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:31] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/element HTTP/1.1" 200 102
+[2019-07-15 20:30:31] [DEBUG] Finished Request
+[2019-07-15 20:30:31] [INFO] 查找元素成功，查找方式为xpath     值为://button[@type='submit']     
+[2019-07-15 20:30:31] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/element/0.5425123075621048-1/click {"id": "0.5425123075621048-1", "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:31] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/element/0.5425123075621048-1/click HTTP/1.1" 200 576
+[2019-07-15 20:30:31] [DEBUG] Finished Request
+[2019-07-15 20:30:31] [INFO] <bound method loginTestPage.save_img of <test_login.loginTestPage testMethod=testEroor>>
+[2019-07-15 20:30:31] [INFO] F:\googleDownloads/report/screenshot
+[2019-07-15 20:30:31] [DEBUG] GET http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/screenshot {"sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:32] [DEBUG] http://127.0.0.1:54450 "GET /session/013157a75860174944f396acea4489da/screenshot HTTP/1.1" 200 340630
+[2019-07-15 20:30:32] [DEBUG] Finished Request
+[2019-07-15 20:30:32] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/url {"url": "https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/", "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:36] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/url HTTP/1.1" 200 72
+[2019-07-15 20:30:36] [DEBUG] Finished Request
+[2019-07-15 20:30:39] [INFO] 没有问题
+[2019-07-15 20:30:39] [INFO] {'dec': '测试环境', 'username': 'jun@qq.com', 'password': 'zhangjun1!', 'login_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/site/login.html?rel=/', 'shooping_url': 'https://frontend.chinabrands.com.develop.php5.egomsl.com/item/dropship-zinc-alloy-outdoor-hunting-slingshot-with-rubber-band-1768585-p.html?goods_id=124992&wid=1'}
+[2019-07-15 20:30:39] [INFO] 读取yaml成功
+[2019-07-15 20:30:39] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:39] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/element HTTP/1.1" 200 101
+[2019-07-15 20:30:39] [DEBUG] Finished Request
+[2019-07-15 20:30:39] [INFO] 查找元素成功，查找方式为xpath     值为://input[@class='custom-text']     
+[2019-07-15 20:30:39] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/element/0.554273608886958-1/clear {"id": "0.554273608886958-1", "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:39] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/element/0.554273608886958-1/clear HTTP/1.1" 200 72
+[2019-07-15 20:30:39] [DEBUG] Finished Request
+[2019-07-15 20:30:39] [DEBUG] POST http://127.0.0.1:54450/session/013157a75860174944f396acea4489da/element/0.554273608886958-1/value {"text": "jun@qq.com", "value": ["j", "u", "n", "@", "q", "q", ".", "c", "o", "m"], "id": "0.554273608886958-1", "sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:39] [DEBUG] http://127.0.0.1:54450 "POST /session/013157a75860174944f396acea4489da/element/0.554273608886958-1/value HTTP/1.1" 200 72
+[2019-07-15 20:30:39] [DEBUG] Finished Request
+[2019-07-15 20:30:39] [DEBUG] DELETE http://127.0.0.1:54450/session/013157a75860174944f396acea4489da {"sessionId": "013157a75860174944f396acea4489da"}
+[2019-07-15 20:30:39] [DEBUG] http://127.0.0.1:54450 "DELETE /session/013157a75860174944f396acea4489da HTTP/1.1" 200 72
+[2019-07-15 20:30:39] [DEBUG] Finished Request

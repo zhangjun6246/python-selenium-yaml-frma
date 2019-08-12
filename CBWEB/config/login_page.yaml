@@ -1,0 +1,16 @@
+login_page:
+  dec: 登录页
+  username:
+      -
+        type: xpath
+        value: //input[@class='custom-text']
+  password:
+      -
+        type: xpath
+        value: //input[@class='custom-text password']
+
+  loginbtn:
+      -
+        type: xpath
+        value: //button[@type='submit']
+

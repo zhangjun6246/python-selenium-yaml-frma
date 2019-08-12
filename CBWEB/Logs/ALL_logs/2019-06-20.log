@@ -1,0 +1,16 @@
+[2019-06-20 16:00:39] [DEBUG] POST http://127.0.0.1:53127/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[2019-06-20 16:00:39] [DEBUG] Starting new HTTP connection (1): 127.0.0.1:53127
+[2019-06-20 16:01:13] [DEBUG] http://127.0.0.1:53127 "POST /session HTTP/1.1" 200 833
+[2019-06-20 16:01:13] [DEBUG] Finished Request
+[2019-06-20 16:01:13] [INFO] 1234
+[2019-06-20 16:01:13] [DEBUG] POST http://127.0.0.1:53127/session/58ee9df9840e94bbbadb9246fa828098/url {"url": "https://www.chinabrands.com/site/login.html?rel=/site/login.html/", "sessionId": "58ee9df9840e94bbbadb9246fa828098"}
+[2019-06-20 16:01:21] [DEBUG] http://127.0.0.1:53127 "POST /session/58ee9df9840e94bbbadb9246fa828098/url HTTP/1.1" 200 72
+[2019-06-20 16:01:21] [DEBUG] Finished Request
+[2019-06-20 16:01:21] [DEBUG] POST http://127.0.0.1:53127/session/58ee9df9840e94bbbadb9246fa828098/element {"using": "xpath", "value": "//input[@class='custom-text']", "sessionId": "58ee9df9840e94bbbadb9246fa828098"}
+[2019-06-20 16:01:21] [DEBUG] http://127.0.0.1:53127 "POST /session/58ee9df9840e94bbbadb9246fa828098/element HTTP/1.1" 200 103
+[2019-06-20 16:01:21] [DEBUG] Finished Request
+[2019-06-20 16:01:21] [DEBUG] POST http://127.0.0.1:53127/session/58ee9df9840e94bbbadb9246fa828098/element/0.09895270448290527-1/value {"text": "1249413047@qq.com", "value": ["1", "2", "4", "9", "4", "1", "3", "0", "4", "7", "@", "q", "q", ".", "c", "o", "m"], "id": "0.09895270448290527-1", "sessionId": "58ee9df9840e94bbbadb9246fa828098"}
+[2019-06-20 16:01:22] [DEBUG] http://127.0.0.1:53127 "POST /session/58ee9df9840e94bbbadb9246fa828098/element/0.09895270448290527-1/value HTTP/1.1" 200 72
+[2019-06-20 16:01:22] [DEBUG] Finished Request
+[2019-06-20 16:01:22] [INFO] 111
+[2019-06-20 16:01:22] [WARNING] 222
